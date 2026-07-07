@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todor Papazov | Data Analytics Professional</title>
+  <meta name="description" content="Todor 'Todd' Papazov — Operations Data Analyst at TRIMEDX. Expert in Python, SQL, Snowflake, Power BI, and data pipelines with proven impact: $19M cost savings, 25% error reduction on 1M+ record datasets.">
+  <meta name="author" content="Todor Papazov">
+  <link rel="canonical" href="https://todorpapazov.github.io/">
+  <meta property="og:title" content="Todor Papazov | Data Analytics Professional">
+  <meta property="og:description" content="Operations Data Analyst at TRIMEDX. Python • SQL • Snowflake • Power BI • Healthcare Operations Analytics">
+  <meta property="og:image" content="https://todorpapazov.github.io/assets/images/todor-papazov.jpg">
+  <meta property="og:url" content="https://todorpapazov.github.io/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@TodorPapazov">
+  <meta name="twitter:title" content="Todor Papazov | Data Analytics Professional">
+  <meta name="twitter:description" content="Operations Data Analyst at TRIMEDX. Python • SQL • Snowflake • Power BI">
+  <meta name="twitter:image" content="https://todorpapazov.github.io/assets/images/todor-papazov.jpg">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#1d4ed8">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%231d4ed8'/><text x='16' y='22' text-anchor='middle' fill='white' font-family='system-ui' font-weight='600' font-size='14'>TP</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Todor Papazov",
+    "alternateName": "Todd Papazov",
+    "jobTitle": "Operations Data Analyst",
+    "worksFor": { "@type": "Organization", "name": "TRIMEDX" },
+    "url": "https://todorpapazov.github.io/",
+    "image": "https://todorpapazov.github.io/assets/images/todor-papazov.jpg",
+    "email": "todor.papazov1@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Westfield", "addressRegion": "IN" },
+    "sameAs": [
+      "https://www.linkedin.com/in/todorpapazov",
+      "https://x.com/TodorPapazov",
+      "https://github.com/TodorPapazov"
+    ],
+    "knowsAbout": ["Python", "SQL", "Snowflake", "Power BI", "Data Pipelines", "Healthcare Analytics"]
+  }
+  </script>
+  <style>
+    :root {
+      --primary: #1e40af;
+      --nav-height: 4rem;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: var(--nav-height);
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    }
+
+    .title-font {
+      font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+      font-weight: 600;
+      letter-spacing: -0.025em;
+    }
+
+    .section-title {
+      font-family: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    .prose-custom p {
+      line-height: 1.7;
+    }
+
+    .skill-pill {
+      transition: all 0.15s ease;
+    }
+
+    .skill-pill:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    }
+
+    .nav-link {
+      position: relative;
+    }
+
+    .nav-link:after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -2px;
+      left: 0;
+      background-color: #1e40af;
+      transition: width 0.2s ease;
+    }
+
+    .nav-link:hover:after,
+    .nav-link.active:after {
+      width: 100%;
+    }
+
+    .nav-link.active {
+      color: #0f172a;
+      font-weight: 500;
+    }
+
+    .experience-card,
+    .post-card {
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+
+    .experience-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.05);
+      border-color: #cbd5e1;
+    }
+
+    .post-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    }
+
+    .hero-gradient {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(160deg, #ffffff 0%, #f8fafc 40%, #eff6ff 100%);
+    }
+
+    .hero-gradient::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 58% 42%, rgba(255,255,255,0.55) 0%, transparent 45%);
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .logo-bg {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .logo-bg-item {
+      position: absolute;
+      width: 3.5rem;
+      height: 3.5rem;
+      opacity: 0.48;
+      filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.08));
+      transition: opacity 0.3s ease;
+      animation: logo-drift 18s ease-in-out infinite;
+    }
+
+    .logo-bg-item img,
+    .logo-bg-item svg {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .logo-bg-item:nth-child(odd) { animation-direction: alternate-reverse; }
+    .logo-bg-item:nth-child(3n) { animation-duration: 22s; }
+    .logo-bg-item:nth-child(4n) { animation-duration: 26s; }
+
+    @keyframes logo-drift {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-8px) rotate(3deg); }
+    }
+
+    @media (min-width: 768px) {
+      .logo-bg-item {
+        width: 4.25rem;
+        height: 4.25rem;
+        opacity: 0.52;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .logo-bg-item { animation: none; }
+    }
+
+    .metric-card {
+      background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 2px solid #1d4ed8;
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100%;
+      left: 1rem;
+      z-index: 100;
+      padding: 0.5rem 1rem;
+      background: #1d4ed8;
+      color: white;
+      font-size: 0.875rem;
+      font-weight: 600;
+      border-radius: 0 0 0.5rem 0.5rem;
+      transition: top 0.2s ease;
+    }
+
+    .skip-link:focus {
+      top: 0;
+    }
+
+    #mobile-menu {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+
+    #mobile-menu.open {
+      max-height: 20rem;
+    }
+
+    #back-to-top {
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
+    }
+
+    #back-to-top.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    #back-to-top:hover {
+      transform: translateY(-2px);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .fade-in { opacity: 1; transform: none; transition: none; }
+    }
+
+    @media print {
+      nav, #back-to-top, #mobile-menu-btn { display: none !important; }
+      .experience-card, .project-card { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <a href="#main" class="skip-link">Skip to content</a>
+  <!-- Nav -->
+  <nav class="bg-white/95 backdrop-blur-sm border-b border-slate-200 sticky top-0 z-50" aria-label="Main navigation">
+    <div class="max-w-screen-xl mx-auto px-6">
+      <div class="flex items-center justify-between h-16">
+        <a href="./" class="flex items-center gap-x-3 group" aria-label="Todor Papazov — Home">
+          <div class="w-9 h-9 bg-blue-700 rounded-2xl flex items-center justify-center shadow-inner group-hover:bg-blue-800 transition-colors">
+            <span class="text-white font-semibold text-xl tracking-tighter">TP</span>
+          </div>
+          <div>
+            <div class="font-semibold text-xl tracking-tight">Todor Papazov</div>
+            <div class="text-[10px] text-slate-500 -mt-1">DATA ANALYTICS &amp; DATA SCIENCE</div>
+          </div>
+        </a>
+
+        <div class="hidden lg:flex items-center gap-x-7 text-sm">
+          <a href="#about" class="nav-link text-slate-600 hover:text-slate-900" data-section="about">About</a>
+          <a href="#experience" class="nav-link text-slate-600 hover:text-slate-900" data-section="experience">Experience</a>
+          <a href="#skills" class="nav-link text-slate-600 hover:text-slate-900" data-section="skills">Skills</a>
+          <a href="#activity" class="nav-link text-slate-600 hover:text-slate-900" data-section="activity">Activity</a>
+          <a href="#contact" class="nav-link text-slate-600 hover:text-slate-900" data-section="contact">Contact</a>
+        </div>
+
+        <div class="flex items-center gap-x-2 sm:gap-x-3">
+          <a href="https://www.linkedin.com/in/todorpapazov" target="_blank" rel="noopener noreferrer"
+             aria-label="LinkedIn profile"
+             class="hidden sm:inline-flex items-center gap-x-2 px-4 py-1.5 text-sm font-medium rounded-3xl border border-slate-200 hover:bg-slate-100 transition-colors">
+            <i class="fab fa-linkedin text-blue-600" aria-hidden="true"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="#resume"
+             class="hidden md:inline-flex items-center gap-x-2 bg-blue-700 hover:bg-blue-800 transition-colors text-white text-sm font-semibold px-5 py-2 rounded-3xl">
+            <i class="fa-solid fa-download" aria-hidden="true"></i>
+            Resume
+          </a>
+          <button id="mobile-menu-btn" type="button"
+                  class="lg:hidden inline-flex items-center justify-center w-10 h-10 rounded-xl border border-slate-200 hover:bg-slate-100 transition-colors"
+                  aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle navigation menu">
+            <i class="fa-solid fa-bars text-slate-600" id="menu-icon-open" aria-hidden="true"></i>
+            <i class="fa-solid fa-xmark text-slate-600 hidden" id="menu-icon-close" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+
+      <div id="mobile-menu" class="lg:hidden border-t border-slate-100">
+        <div class="py-3 space-y-1 text-sm">
+          <a href="#about" class="block px-3 py-2.5 rounded-xl text-slate-600 hover:bg-slate-50 hover:text-slate-900 mobile-nav-link" data-section="about">About</a>
+          <a href="#experience" class="block px-3 py-2.5 rounded-xl text-slate-600 hover:bg-slate-50 hover:text-slate-900 mobile-nav-link" data-section="experience">Experience</a>
+          <a href="#skills" class="block px-3 py-2.5 rounded-xl text-slate-600 hover:bg-slate-50 hover:text-slate-900 mobile-nav-link" data-section="skills">Skills</a>
+          <a href="#activity" class="block px-3 py-2.5 rounded-xl text-slate-600 hover:bg-slate-50 hover:text-slate-900 mobile-nav-link" data-section="activity">Activity</a>
+          <a href="#contact" class="block px-3 py-2.5 rounded-xl text-slate-600 hover:bg-slate-50 hover:text-slate-900 mobile-nav-link" data-section="contact">Contact</a>
+          <a href="#resume" class="block px-3 py-2.5 rounded-xl text-blue-700 font-semibold hover:bg-blue-50 mobile-nav-link" data-section="resume">Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+
+  <!-- Hero -->
+  <header class="hero-gradient border-b border-slate-100">
+    <div class="logo-bg" aria-hidden="true">
+      <div class="logo-bg-item" style="top: 7%; left: 3%;"><img src="assets/logos/googlecloud.svg" alt="" loading="lazy" decoding="async"></div>
+      <div class="logo-bg-item" style="top: 16%; left: 20%;"><img src="assets/logos/microsoftazure.svg" alt="" loading="lazy" decoding="async"></div>
+      <div class="logo-bg-item" style="top: 5%; left: 40%;"><img src="assets/logos/snowflake.svg" alt="" loading="lazy" decoding="async"></div>
+      <div class="logo-bg-item" style="top: 12%; right: 26%;"><img src="assets/logos/python.svg" alt="" loading="lazy" decoding="async"></div>
+      <div class="logo-bg-item" style="top: 4%; right: 4%;"><img src="assets/logos/amazonaws.svg" alt="" loading="lazy" decoding="async"></div>
+      <div class="logo-bg-item" style="top: 40%; left: 1%;"><img src="assets/logos/visualstudiocode.svg" alt="" loading="lazy" decoding="async"></div>
+      <div class="logo-bg-item" style="top: 52%; left: 16%;"><img src="assets/logos/powerbi.svg" alt="" loading="lazy" decoding="async"></div>
+      <div class="logo-bg-item" style="top: 36%; left: 36%;"><img src="assets/logos/sql.svg" alt="" loading="lazy" decoding="async"></div>
+      <div class="logo-bg-item" style="top: 46%; right: 20%;"><img src="assets/logos/anthropic.svg" alt="" loading="lazy" decoding="async"></div>
+      <div class="logo-bg-item" style="top: 34%; right: 3%;"><img src="assets/logos/githubcopilot.svg" alt="" loading="lazy" decoding="async"></div>
+      <div class="logo-bg-item" style="bottom: 14%; left: 6%;"><img src="assets/logos/grok.svg" alt="" loading="lazy" decoding="async"></div>
+    </div>
+    <div class="relative z-10 max-w-screen-xl mx-auto px-6 pt-12 pb-16 md:pt-16 md:pb-20">
+      <div class="grid md:grid-cols-12 gap-12 items-center">
+        <!-- Photo -->
+        <div class="md:col-span-5 flex justify-center md:justify-end">
+          <div class="relative">
+            <img src="assets/images/todor-papazov.jpg" alt="Todor 'Todd' Papazov professional headshot"
+                 width="288" height="288" loading="eager"
+                 class="w-64 h-64 md:w-72 md:h-72 rounded-3xl object-cover border-8 border-white shadow-2xl ring-1 ring-slate-200">
+            <div class="absolute -bottom-2 -right-2 bg-emerald-500 text-white text-xs font-semibold px-3 py-1 rounded-2xl shadow flex items-center gap-x-1">
+              <i class="fa-solid fa-circle text-[10px]"></i>
+              <span>Open to opportunities</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Text -->
+        <div class="md:col-span-7 text-center md:text-left">
+          <div class="uppercase tracking-[2px] text-xs font-semibold text-blue-700 mb-3">DATA ANALYTICS &amp; DATA SCIENCE</div>
+          <h1 class="title-font text-5xl md:text-6xl font-semibold tracking-tighter text-slate-900 leading-none mb-3">
+            Todor "Todd"<br> Papazov
+          </h1>
+          <p class="text-2xl text-slate-600 tracking-tight mb-6">Operations Data Analyst @ TRIMEDX</p>
+
+          <div class="max-w-lg mx-auto md:mx-0 prose-custom text-[15px] text-slate-600 mb-8">
+            Data analytics professional with 7+ years in data preparation, pipelines, and statistical modeling for healthcare operations and financial services.
+          </div>
+
+          <div class="flex flex-wrap gap-3 justify-center md:justify-start">
+            <a href="#resume" 
+               class="inline-flex items-center justify-center gap-x-2 bg-slate-900 hover:bg-black transition-all text-white font-semibold px-8 py-3.5 rounded-3xl shadow">
+              <i class="fa-solid fa-download"></i>
+              <span>Download Resume (PDF)</span>
+            </a>
+            <a href="https://github.com/TodorPapazov" target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center justify-center gap-x-2 border border-slate-300 hover:bg-slate-100 font-semibold px-6 py-3.5 rounded-3xl transition-all">
+              <i class="fab fa-github" aria-hidden="true"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/todorpapazov" target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center justify-center gap-x-2 border border-slate-300 hover:bg-slate-100 font-semibold px-6 py-3.5 rounded-3xl transition-all">
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="mailto:todor.papazov1@gmail.com"
+               class="inline-flex items-center justify-center gap-x-2 border border-slate-300 hover:bg-slate-100 font-semibold px-6 py-3.5 rounded-3xl transition-all">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              <span>Email</span>
+            </a>
+          </div>
+
+          <div class="mt-5 text-sm text-slate-500 flex items-center justify-center md:justify-start gap-x-2">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Westfield, Indiana</span>
+            <span class="text-slate-300">•</span>
+            <span>He/Him</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Impact Metrics -->
+  <section class="bg-white border-b border-slate-100" aria-label="Key achievements">
+    <div class="max-w-screen-xl mx-auto px-6 py-10">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+        <div class="metric-card fade-in border border-slate-200 rounded-2xl p-5 text-center">
+          <div class="text-3xl md:text-4xl font-semibold text-blue-700 tracking-tight">$19M</div>
+          <div class="text-xs md:text-sm text-slate-500 mt-1">Annual cost savings</div>
+        </div>
+        <div class="metric-card fade-in border border-slate-200 rounded-2xl p-5 text-center">
+          <div class="text-3xl md:text-4xl font-semibold text-blue-700 tracking-tight">25%</div>
+          <div class="text-xs md:text-sm text-slate-500 mt-1">Reporting error reduction</div>
+        </div>
+        <div class="metric-card fade-in border border-slate-200 rounded-2xl p-5 text-center">
+          <div class="text-3xl md:text-4xl font-semibold text-blue-700 tracking-tight">1M+</div>
+          <div class="text-xs md:text-sm text-slate-500 mt-1">Records analyzed</div>
+        </div>
+        <div class="metric-card fade-in border border-slate-200 rounded-2xl p-5 text-center">
+          <div class="text-3xl md:text-4xl font-semibold text-blue-700 tracking-tight">7+</div>
+          <div class="text-xs md:text-sm text-slate-500 mt-1">Years of experience</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-screen-xl mx-auto px-6 py-16 border-b border-slate-100 fade-in">
+    <div class="max-w-3xl">
+      <div class="uppercase text-blue-700 text-xs tracking-[1.5px] font-semibold mb-2">ABOUT</div>
+      <h2 class="section-title text-4xl tracking-tighter font-semibold mb-6">Data professional focused on pipelines, exploratory analysis, and modeling insights.</h2>
+      
+      <div class="prose-custom text-[15px] text-slate-600 space-y-5">
+        <p>Results-driven Data Analytics professional with 7+ years specializing in data preparation, wrangling, exploratory analysis, pipeline development, and statistical modeling for healthcare operations and financial services in regulated environments.</p>
+        
+        <p>Expert in Python (Pandas, NumPy), SQL, Snowflake, and Power BI. Proven track record building data analysis pipelines and performing exploratory analyses that reduced reporting errors by 25% and supported $19M in cost savings plus 15% revenue growth. MBA-trained analyst who partners closely with stakeholders to drive data initiatives that deliver actionable insights.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="max-w-screen-xl mx-auto px-6 py-16 border-b border-slate-100 fade-in">
+    <div class="mb-10">
+      <div class="uppercase text-blue-700 text-xs tracking-[1.5px] font-semibold mb-2">EXPERIENCE</div>
+      <h2 class="section-title text-4xl tracking-tighter font-semibold">Professional Experience</h2>
+    </div>
+
+    <div class="space-y-8">
+      <!-- Role 1 -->
+      <div class="experience-card bg-white border border-slate-200 rounded-3xl p-7 md:p-8">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4 gap-y-1">
+          <div>
+            <div class="font-semibold text-xl">Operations Data Analyst</div>
+            <div class="text-slate-600">TRIMEDX — Indianapolis, IN (Healthcare Operations &amp; Technology)</div>
+          </div>
+          <div class="text-sm font-medium text-slate-500 whitespace-nowrap">Dec 2024 — Present</div>
+        </div>
+        <ul class="space-y-2.5 text-[14.5px] text-slate-700">
+          <li class="flex gap-2.5"><span class="text-blue-700 mt-1.5">•</span> Led data preparation and exploratory analysis on 1M+ healthcare records using Python, SQL, and Snowflake; reduced reporting errors by 25%.</li>
+          <li class="flex gap-2.5"><span class="text-blue-700 mt-1.5">•</span> Built data pipelines from CMMS, RTLS, and EHR systems into Power BI dashboards for KPI and performance tracking.</li>
+          <li class="flex gap-2.5"><span class="text-blue-700 mt-1.5">•</span> Supported forecasting and ROI modeling with statistical analysis across enterprise platforms.</li>
+          <li class="flex gap-2.5"><span class="text-blue-700 mt-1.5">•</span> Partnered with Clinical Engineering and operations leaders on reporting solutions and pipeline automation.</li>
+          <li class="flex gap-2.5"><span class="text-blue-700 mt-1.5">•</span> Contributed to $19M in annual cost savings through data-informed operational recommendations.</li>
+        </ul>
+      </div>
+
+      <!-- Role 2 -->
+      <div class="experience-card bg-white border border-slate-200 rounded-3xl p-7 md:p-8">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4 gap-y-1">
+          <div>
+            <div class="font-semibold text-xl">Portfolio Analyst</div>
+            <div class="text-slate-600">TRIMEDX — Indianapolis, IN</div>
+          </div>
+          <div class="text-sm font-medium text-slate-500 whitespace-nowrap">Nov 2022 — Nov 2024</div>
+        </div>
+        <ul class="space-y-2.5 text-[14.5px] text-slate-700">
+          <li class="flex gap-2.5"><span class="text-blue-700 mt-1.5">•</span> Performed portfolio analysis and financial modeling on large datasets using SQL and Python.</li>
+          <li class="flex gap-2.5"><span class="text-blue-700 mt-1.5">•</span> Prepared forecasting models and performance summaries for senior stakeholder reporting.</li>
+          <li class="flex gap-2.5"><span class="text-blue-700 mt-1.5">•</span> Delivered recommendations that supported a 15% revenue increase through contract optimization.</li>
+          <li class="flex gap-2.5"><span class="text-blue-700 mt-1.5">•</span> Automated ETL workflows, improving data consistency and team productivity by 20%.</li>
+        </ul>
+      </div>
+
+      <!-- Role 3 -->
+      <div class="experience-card bg-white border border-slate-200 rounded-3xl p-7 md:p-8">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4 gap-y-1">
+          <div>
+            <div class="font-semibold text-xl">Registered Wealth Management Client Associate</div>
+            <div class="text-slate-600">Merrill Lynch — San Francisco, CA (Financial Services – Highly Regulated Environment)</div>
+          </div>
+          <div class="text-sm font-medium text-slate-500 whitespace-nowrap">Aug 2019 — Aug 2022</div>
+        </div>
+        <ul class="space-y-2.5 text-[14.5px] text-slate-700">
+          <li class="flex gap-2.5"><span class="text-blue-700 mt-1.5">•</span> Analyzed portfolio and performance data with focus on accuracy and compliance in a regulated wealth management environment.</li>
+          <li class="flex gap-2.5"><span class="text-blue-700 mt-1.5">•</span> Created reports, visualizations, and pipelines to communicate performance and risk trends to advisors.</li>
+          <li class="flex gap-2.5"><span class="text-blue-700 mt-1.5">•</span> Delivered data-driven recommendations while maintaining reporting quality and compliance standards.</li>
+        </ul>
+      </div>
+
+      <!-- Role 4 -->
+      <div class="experience-card bg-white border border-slate-200 rounded-3xl p-7 md:p-8">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4 gap-y-1">
+          <div>
+            <div class="font-semibold text-xl">Relationship Manager</div>
+            <div class="text-slate-600">Bank of America — San Carlos, CA</div>
+          </div>
+          <div class="text-sm font-medium text-slate-500 whitespace-nowrap">Dec 2016 — Aug 2019</div>
+        </div>
+        <ul class="space-y-2.5 text-[14.5px] text-slate-700">
+          <li class="flex gap-2.5"><span class="text-blue-700 mt-1.5">•</span> Tracked client performance and analyzed operational data to support business decisions.</li>
+          <li class="flex gap-2.5"><span class="text-blue-700 mt-1.5">•</span> Partnered with leadership on insights from validated datasets, consistently exceeding quarterly targets.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="max-w-screen-xl mx-auto px-6 py-16 border-b border-slate-100 fade-in">
+    <div class="mb-9">
+      <div class="uppercase text-blue-700 text-xs tracking-[1.5px] font-semibold mb-2">EXPERTISE</div>
+      <h2 class="section-title text-4xl tracking-tighter font-semibold">Skills &amp; Competencies</h2>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <!-- Data Pipelines & Analytics -->
+      <div class="bg-white border border-slate-200 rounded-3xl p-6">
+        <div class="font-semibold mb-3 flex items-center gap-x-2"><i class="fa-solid fa-shield-halved text-blue-700"></i> Data Pipelines &amp; Analytics</div>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">Data Preparation &amp; Wrangling</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">Exploratory Data Analysis (EDA)</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">Data Pipelines &amp; ETL</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">Feature Preparation</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">Large-Scale Data Analysis (1M+)</span>
+        </div>
+      </div>
+
+      <!-- Technical -->
+      <div class="bg-white border border-slate-200 rounded-3xl p-6">
+        <div class="font-semibold mb-3 flex items-center gap-x-2"><i class="fa-solid fa-database text-blue-700"></i> Technical &amp; Platforms</div>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">Python (Pandas, NumPy)</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">SQL (Advanced)</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">Snowflake</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">Power BI (Dashboards, DAX, KPIs)</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">Data Pipelines &amp; ETL</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">R</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">Advanced Excel / Power Query</span>
+        </div>
+      </div>
+
+      <!-- Analytics & Domain -->
+      <div class="bg-white border border-slate-200 rounded-3xl p-6">
+        <div class="font-semibold mb-3 flex items-center gap-x-2"><i class="fa-solid fa-balance-scale text-blue-700"></i> Analytics &amp; Domain</div>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">HIPAA &amp; Financial Compliance</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">Healthcare Operations Analytics</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">Statistical Modeling &amp; Forecasting</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">ROI &amp; Financial Modeling</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">Risk &amp; Data Analytics</span>
+        </div>
+      </div>
+
+      <!-- Other -->
+      <div class="bg-white border border-slate-200 rounded-3xl p-6">
+        <div class="font-semibold mb-3 flex items-center gap-x-2"><i class="fa-solid fa-lightbulb text-blue-700"></i> Additional Strengths</div>
+        <div class="flex flex-wrap gap-1.5">
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">Stakeholder Communication</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">Process Improvement</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">GenAI &amp; Low-Code Automation</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">Prompt Engineering for Data</span>
+          <span class="skill-pill text-xs bg-slate-100 text-slate-700 px-3 py-1 rounded-2xl">Power Automate</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education + Certs -->
+  <section id="education" class="max-w-screen-xl mx-auto px-6 py-16 border-b border-slate-100 fade-in">
+    <div class="grid md:grid-cols-2 gap-x-10 gap-y-12">
+      <!-- Education -->
+      <div>
+        <div class="uppercase text-blue-700 text-xs tracking-[1.5px] font-semibold mb-2">EDUCATION</div>
+        <h3 class="section-title text-2xl tracking-tight font-semibold mb-5">Education</h3>
+        
+        <div class="space-y-5">
+          <div>
+            <div class="font-semibold">Master of Business Administration (MBA), Finance and Investment Banking</div>
+            <div class="text-slate-600">Lincoln University</div>
+          </div>
+          <div>
+            <div class="font-semibold">Bachelor of Science, Economics</div>
+            <div class="text-slate-600">University of Economics — Varna</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div>
+        <div class="uppercase text-blue-700 text-xs tracking-[1.5px] font-semibold mb-2">CERTIFICATIONS</div>
+        <h3 class="section-title text-2xl tracking-tight font-semibold mb-5">Certifications &amp; Credentials</h3>
+        
+        <ul class="space-y-2 text-[14.5px]">
+          <li>
+            <a href="https://www.skills.google/public_profiles/55cff512-2c46-460a-8993-2b7c6c2c1c8e" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-blue-700 hover:text-blue-800 hover:underline">Google Cloud Data Analytics Certificate</a>
+            — Google Cloud
+          </li>
+          <li>
+            <a href="https://developerbadges.snowflake.com/profile/todorpapazov/wallet" target="_blank" rel="noopener noreferrer"
+               class="font-medium text-blue-700 hover:text-blue-800 hover:underline">Snowflake Platform Associate Certification</a>
+          </li>
+          <li><span class="font-medium">SQL Data Analyst</span> — DataCamp</li>
+          <li><span class="font-medium">Microsoft Excel Advanced</span> — Udemy</li>
+        </ul>
+        <div class="mt-4 flex flex-wrap gap-3">
+          <a href="https://www.skills.google/public_profiles/55cff512-2c46-460a-8993-2b7c6c2c1c8e" target="_blank" rel="noopener noreferrer"
+             class="inline-flex items-center gap-x-1.5 text-xs font-medium text-slate-600 hover:text-blue-700 transition-colors">
+            <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+            Google Skills Profile
+            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]" aria-hidden="true"></i>
+          </a>
+          <a href="https://developerbadges.snowflake.com/profile/todorpapazov/wallet" target="_blank" rel="noopener noreferrer"
+             class="inline-flex items-center gap-x-1.5 text-xs font-medium text-slate-600 hover:text-blue-700 transition-colors">
+            <i class="fa-solid fa-snowflake" aria-hidden="true"></i>
+            Snowflake Badge Wallet
+            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="mt-3 text-xs text-slate-500">Additional DataCamp SQL specializations: Data Manipulation, Intermediate, Joining Data in SQL</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activity / Posts -->
+  <section id="activity" class="max-w-screen-xl mx-auto px-6 py-16 border-b border-slate-100 bg-white fade-in">
+    <div class="mb-9">
+      <div class="uppercase text-blue-700 text-xs tracking-[1.5px] font-semibold mb-2">ACTIVITY</div>
+      <h2 class="section-title text-4xl tracking-tighter font-semibold">Recent Posts &amp; Learning</h2>
+      <p class="text-slate-600 mt-1">A snapshot of ongoing professional development and community engagement (as of July 2026).</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- X Posts -->
+      <div>
+        <div class="flex items-center gap-x-2 mb-4">
+          <i class="fab fa-x-twitter text-xl"></i>
+          <div class="font-semibold">On X <span class="font-normal text-slate-500">@TodorPapazov</span></div>
+        </div>
+
+        <div class="space-y-3">
+          <!-- Post 1 -->
+          <div class="post-card bg-slate-50 border border-slate-200 rounded-3xl p-5">
+            <div class="text-sm text-slate-600 mb-2">May 2025 • Power BI certification journey</div>
+            <div class="text-[14.5px]">Microsoft Learn — Microsoft Power BI Data Analyst (PL-300) + LinkedIn Learning Advanced DAX and PL-300 cert prep. “#AISkillsFest voucher utilized! June 17, 2025 we are taking the PL-300 exam!”</div>
+            <a href="https://x.com/TodorPapazov" target="_blank" class="mt-3 inline-block text-xs text-blue-700 hover:underline font-medium">View on X →</a>
+          </div>
+
+          <!-- Post 2 -->
+          <div class="post-card bg-slate-50 border border-slate-200 rounded-3xl p-5">
+            <div class="text-sm text-slate-600 mb-2">Jun 2026</div>
+            <div class="text-[14.5px]">“/goal in Grok Build is amazing. It keeps working on the goal until it is completed and the results are more than astonishing. Great job @xai”</div>
+            <a href="https://x.com/TodorPapazov" target="_blank" class="mt-3 inline-block text-xs text-blue-700 hover:underline font-medium">View on X →</a>
+          </div>
+
+          <div class="post-card bg-slate-50 border border-slate-200 rounded-3xl p-5">
+            <div class="text-sm text-slate-600 mb-2">Jun 2026 • Microsoft Credentials</div>
+            <div class="text-[14.5px]">“@MicrosoftLearn is the go to place to learn Data and AI... Great job to the team!”</div>
+            <a href="https://x.com/TodorPapazov" target="_blank" class="mt-3 inline-block text-xs text-blue-700 hover:underline font-medium">View on X →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- LinkedIn -->
+      <div>
+        <div class="flex items-center gap-x-2 mb-4">
+          <i class="fab fa-linkedin text-xl text-[#0a66c2]"></i>
+          <div class="font-semibold">On LinkedIn <span class="font-normal text-slate-500">/in/todorpapazov</span></div>
+        </div>
+
+        <div class="space-y-3">
+          <div class="post-card bg-slate-50 border border-slate-200 rounded-3xl p-5">
+            <div class="text-sm text-slate-600 mb-1">AI Agents learning</div>
+            <div class="text-[14.5px]">“Excited for the renewed 5-Day AI Agents Course with Kaggle &amp; Google. The best part, it is FREE.”</div>
+            <a href="https://www.linkedin.com/in/todorpapazov" target="_blank" class="mt-3 inline-block text-xs text-[#0a66c2] hover:underline font-medium">View profile &amp; activity →</a>
+          </div>
+
+          <div class="post-card bg-slate-50 border border-slate-200 rounded-3xl p-5">
+            <div class="text-sm text-slate-600 mb-1">Google Cloud Data Analytics</div>
+            <div class="text-[14.5px]">“Google Cloud Data Analytics Certificate was issued by Google Cloud to Todor Papazov.”</div>
+            <a href="https://www.linkedin.com/in/todorpapazov" target="_blank" class="mt-3 inline-block text-xs text-[#0a66c2] hover:underline font-medium">View profile &amp; activity →</a>
+          </div>
+
+          <div class="post-card bg-slate-50 border border-slate-200 rounded-3xl p-5">
+            <div class="text-sm text-slate-600 mb-1">Continuous learning</div>
+            <div class="text-[14.5px]">“Learning ML &amp; AI: DevOps and Multi-Agent Systems.”</div>
+            <a href="https://www.linkedin.com/in/todorpapazov" target="_blank" class="mt-3 inline-block text-xs text-[#0a66c2] hover:underline font-medium">View full profile →</a>
+          </div>
+        </div>
+
+        <div class="mt-3 text-right">
+          <a href="https://www.linkedin.com/in/todorpapazov" target="_blank" class="text-sm text-[#0a66c2] hover:underline font-medium inline-flex items-center gap-1">See all activity on LinkedIn <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-screen-xl mx-auto px-6 py-16 border-b border-slate-100 fade-in">
+    <div class="mb-10">
+      <div class="uppercase text-blue-700 text-xs tracking-[1.5px] font-semibold mb-2">CONTACT</div>
+      <h2 class="section-title text-4xl tracking-tighter font-semibold">Let's connect</h2>
+      <p class="text-slate-600 mt-2">Open to data analytics, healthcare operations, and analytics engineering opportunities.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <a href="mailto:todor.papazov1@gmail.com"
+         class="group bg-white border border-slate-200 rounded-2xl p-5 hover:border-blue-200 hover:shadow-md transition-all">
+        <i class="fa-solid fa-envelope text-blue-700 text-lg mb-3" aria-hidden="true"></i>
+        <div class="font-semibold text-sm mb-0.5">Email</div>
+        <div class="text-xs text-slate-500 group-hover:text-blue-700 transition-colors">todor.papazov1@gmail.com</div>
+      </a>
+      <a href="https://www.linkedin.com/in/todorpapazov" target="_blank" rel="noopener noreferrer"
+         class="group bg-white border border-slate-200 rounded-2xl p-5 hover:border-blue-200 hover:shadow-md transition-all">
+        <i class="fab fa-linkedin text-[#0a66c2] text-lg mb-3" aria-hidden="true"></i>
+        <div class="font-semibold text-sm mb-0.5">LinkedIn</div>
+        <div class="text-xs text-slate-500 group-hover:text-blue-700 transition-colors">/in/todorpapazov</div>
+      </a>
+      <a href="https://github.com/TodorPapazov" target="_blank" rel="noopener noreferrer"
+         class="group bg-white border border-slate-200 rounded-2xl p-5 hover:border-blue-200 hover:shadow-md transition-all">
+        <i class="fab fa-github text-slate-800 text-lg mb-3" aria-hidden="true"></i>
+        <div class="font-semibold text-sm mb-0.5">GitHub</div>
+        <div class="text-xs text-slate-500 group-hover:text-blue-700 transition-colors">@TodorPapazov</div>
+      </a>
+      <a href="https://x.com/TodorPapazov" target="_blank" rel="noopener noreferrer"
+         class="group bg-white border border-slate-200 rounded-2xl p-5 hover:border-blue-200 hover:shadow-md transition-all">
+        <i class="fab fa-x-twitter text-slate-800 text-lg mb-3" aria-hidden="true"></i>
+        <div class="font-semibold text-sm mb-0.5">X / Twitter</div>
+        <div class="text-xs text-slate-500 group-hover:text-blue-700 transition-colors">@TodorPapazov</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Resume CTA -->
+  <section id="resume" class="max-w-screen-xl mx-auto px-6 py-16 fade-in">
+    <div class="bg-slate-900 text-white rounded-3xl px-8 md:px-12 py-12 md:py-14 flex flex-col md:flex-row gap-8 md:items-center md:justify-between">
+      <div class="max-w-xl">
+        <div class="uppercase tracking-widest text-xs font-semibold text-blue-400 mb-3">FULL DETAILS</div>
+        <div class="text-3xl md:text-4xl tracking-tighter font-semibold mb-3">Download my complete resume</div>
+        <p class="text-slate-300">Includes full experience, detailed achievements, technical skills matrix, and contact information.</p>
+      </div>
+      <div>
+        <a href="assets/resume/Todor_Papazov_Resume.pdf" download="Todor_Papazov_Resume.pdf"
+           class="inline-flex items-center gap-x-3 bg-white text-slate-900 hover:bg-slate-100 font-semibold px-9 py-4 rounded-3xl text-base transition shadow-xl">
+          <i class="fa-solid fa-download"></i>
+          <span>Download PDF</span>
+        </a>
+        <div class="text-center text-xs mt-3 text-slate-400">Todor_Papazov_Resume.pdf</div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- Back to top -->
+  <button id="back-to-top" type="button"
+          class="fixed bottom-6 right-6 z-40 w-11 h-11 bg-blue-700 hover:bg-blue-800 text-white rounded-2xl shadow-lg flex items-center justify-center transition-all"
+          aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-slate-100">
+    <div class="max-w-screen-xl mx-auto px-6 py-10 text-sm text-slate-500">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-y-4">
+        <div>
+          © 2026 Todor "Todd" Papazov • Westfield, IN<br>
+          <span class="text-xs">Data Analytics Professional | Data Science</span>
+        </div>
+        <div class="flex flex-wrap gap-x-5 gap-y-1">
+          <a href="https://github.com/TodorPapazov" target="_blank" class="hover:text-slate-700">GitHub</a>
+          <a href="https://www.linkedin.com/in/todorpapazov" target="_blank" class="hover:text-slate-700">LinkedIn</a>
+          <a href="https://x.com/TodorPapazov" target="_blank" class="hover:text-slate-700">X</a>
+          <a href="mailto:todor.papazov1@gmail.com" class="hover:text-slate-700">Email</a>
+        </div>
+        <div class="text-xs">
+          Hosted on <a href="https://pages.github.com/" target="_blank" class="underline hover:text-slate-700">GitHub Pages</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuIconOpen = document.getElementById('menu-icon-open');
+    const menuIconClose = document.getElementById('menu-icon-close');
+    const backToTop = document.getElementById('back-to-top');
+
+    function closeMobileMenu() {
+      mobileMenu.classList.remove('open');
+      mobileMenuBtn.setAttribute('aria-expanded', 'false');
+      menuIconOpen.classList.remove('hidden');
+      menuIconClose.classList.add('hidden');
+    }
+
+    mobileMenuBtn.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.toggle('open');
+      mobileMenuBtn.setAttribute('aria-expanded', isOpen);
+      menuIconOpen.classList.toggle('hidden', isOpen);
+      menuIconClose.classList.toggle('hidden', !isOpen);
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href === '#') return;
+        const target = document.querySelector(href);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          closeMobileMenu();
+        }
+      });
+    });
+
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-link[data-section]');
+
+    const scrollObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(link => {
+            link.classList.toggle('active', link.dataset.section === entry.target.id);
+          });
+        }
+      });
+    }, { rootMargin: '-40% 0px -50% 0px', threshold: 0 });
+
+    sections.forEach(section => scrollObserver.observe(section));
+
+    const fadeObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          fadeObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.fade-in').forEach(el => fadeObserver.observe(el));
+
+    window.addEventListener('scroll', () => {
+      backToTop.classList.toggle('visible', window.scrollY > 600);
+    }, { passive: true });
+
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
