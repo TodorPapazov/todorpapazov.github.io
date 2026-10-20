@@ -443,10 +443,28 @@
       .edu-grid { grid-template-columns: 1fr 1fr; }
     }
 
-    .activity-grid {
+    .activity-grid,
+    .work-grid {
       display: grid;
       gap: 0.85rem;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    .work-card h3 {
+      margin: 0.35rem 0 0.4rem;
+      font-size: 1.2rem;
+    }
+
+    .work-card p {
+      margin: 0 0 0.9rem;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .work-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
     }
 
     /* ---- Nav ---- */
@@ -545,7 +563,7 @@
     }
 
     #mobile-menu.open {
-      max-height: 22rem;
+      max-height: 28rem;
       border-top-color: var(--border);
     }
 
@@ -773,6 +791,7 @@
 
         <nav class="nav-desktop" aria-label="Main navigation">
           <a href="#about" class="nav-link" data-section="about">About</a>
+          <a href="#work" class="nav-link" data-section="work">Work</a>
           <a href="#experience" class="nav-link" data-section="experience">Experience</a>
           <a href="#skills" class="nav-link" data-section="skills">Skills</a>
           <a href="#activity" class="nav-link" data-section="activity">Activity</a>
@@ -798,6 +817,7 @@
       <div id="mobile-menu">
         <div class="mobile-links">
           <a href="#about" class="mobile-nav-link">About</a>
+          <a href="#work" class="mobile-nav-link">Work</a>
           <a href="#experience" class="mobile-nav-link">Experience</a>
           <a href="#skills" class="mobile-nav-link">Skills</a>
           <a href="#activity" class="mobile-nav-link">Activity</a>
@@ -882,6 +902,55 @@
           <p class="muted" style="margin:0;">
             Expert in Python (Pandas, NumPy), SQL, Snowflake, and Power BI. Proven track record building data analysis pipelines and performing exploratory analyses that reduced reporting errors by 25% and supported $19M in cost savings plus 15% revenue growth. MBA-trained analyst who partners closely with stakeholders to drive data initiatives that deliver actionable insights.
           </p>
+        </div>
+      </section>
+
+
+      <!-- Work -->
+      <section id="work" class="section fade-in">
+        <div class="hud-label">Work</div>
+        <h2 class="section-title">Selected projects</h2>
+        <div class="work-grid">
+          <article class="panel panel-bracket role work-card">
+            <span class="bracket-tr"></span><span class="bracket-bl"></span>
+            <div class="hud-label">Live · 1948–2026</div>
+            <h3>Living Room Ledger</h3>
+            <p>What a household has paid to watch television: cable, satellite, live TV, streaming, discs, and rentals, with 2026 plan prices and the hours of work a cable bill takes.</p>
+            <div class="work-links">
+              <a class="btn btn-primary" href="https://home-entertainment.grok.me/" target="_blank" rel="noopener noreferrer">Open the ledger</a>
+              <a class="btn btn-ghost" href="https://github.com/TodorPapazov/home-entertainment" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
+          <article class="panel panel-bracket role work-card">
+            <span class="bracket-tr"></span><span class="bracket-bl"></span>
+            <div class="hud-label">Dataset · 2000–2025</div>
+            <h3>GPU History</h3>
+            <p>118 desktop GPU launches, inflation-adjusted, with a GeForce generation scroll and an affordability explorer.</p>
+            <div class="work-links">
+              <a class="btn btn-ghost" href="https://todorpapazov.github.io/GPU-History/" target="_blank" rel="noopener noreferrer">Open</a>
+              <a class="btn btn-ghost" href="https://github.com/TodorPapazov/GPU-History" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
+          <article class="panel panel-bracket role work-card">
+            <span class="bracket-tr"></span><span class="bracket-bl"></span>
+            <div class="hud-label">Browser</div>
+            <h3>Live TV</h3>
+            <p>A watch-only player for free public live channels. No account, and no desktop recorder.</p>
+            <div class="work-links">
+              <a class="btn btn-ghost" href="https://todorpapazov.github.io/live-tv/" target="_blank" rel="noopener noreferrer">Open</a>
+              <a class="btn btn-ghost" href="https://github.com/TodorPapazov/live-tv" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
+          <article class="panel panel-bracket role work-card">
+            <span class="bracket-tr"></span><span class="bracket-bl"></span>
+            <div class="hud-label">Study</div>
+            <h3>DP-600 flashcards</h3>
+            <p>Fabric Analytics Engineer practice cards for the Microsoft DP-600 exam, usable from the browser.</p>
+            <div class="work-links">
+              <a class="btn btn-ghost" href="https://todorpapazov.github.io/DP-600/" target="_blank" rel="noopener noreferrer">Open</a>
+              <a class="btn btn-ghost" href="https://github.com/TodorPapazov/DP-600" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
         </div>
       </section>
 
