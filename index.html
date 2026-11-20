@@ -2,29 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Todor Papazov | Data Analytics Professional</title>
-  <meta name="description" content="Todor 'Todd' Papazov — Operations Data Analyst at TRIMEDX. Expert in Python, SQL, Snowflake, Power BI, and data pipelines with proven impact: $19M cost savings, 25% error reduction on 1M+ record datasets.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Todor “Todd” Papazov | Data Analyst who builds and ships</title>
+  <meta name="description" content="Todor “Todd” Papazov: Operations Data Analyst at TRIMEDX with 7+ years in healthcare operations and financial services. Python, SQL, Snowflake, Power BI. Pipelines and analysis behind $19M in annual cost savings and 25% fewer reporting errors.">
   <meta name="author" content="Todor Papazov">
   <link rel="canonical" href="https://todorpapazov.github.io/">
-  <meta property="og:title" content="Todor Papazov | Data Analytics Professional">
-  <meta property="og:description" content="Operations Data Analyst at TRIMEDX. Python • SQL • Snowflake • Power BI • Healthcare Operations Analytics">
+  <meta property="og:title" content="Todor “Todd” Papazov | Data Analyst who builds and ships">
+  <meta property="og:description" content="Operations Data Analyst at TRIMEDX. Pipelines, models, dashboards, and small tools for healthcare operations and financial services.">
   <meta property="og:image" content="https://todorpapazov.github.io/assets/images/todor-papazov.jpg">
   <meta property="og:url" content="https://todorpapazov.github.io/">
   <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@TodorPapazov">
-  <meta name="twitter:title" content="Todor Papazov | Data Analytics Professional">
-  <meta name="twitter:description" content="Operations Data Analyst at TRIMEDX. Python • SQL • Snowflake • Power BI">
+  <meta name="twitter:title" content="Todor “Todd” Papazov | Data Analyst who builds and ships">
+  <meta name="twitter:description" content="Operations Data Analyst at TRIMEDX. Python · SQL · Snowflake · Power BI">
   <meta name="twitter:image" content="https://todorpapazov.github.io/assets/images/todor-papazov.jpg">
   <meta name="robots" content="index, follow">
-  <meta name="theme-color" content="#1d4ed8">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%231d4ed8'/><text x='16' y='22' text-anchor='middle' fill='white' font-family='system-ui' font-weight='600' font-size='14'>TP</text></svg>">
+  <meta name="theme-color" content="#4338ca">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%234338ca'/><text x='16' y='21.5' text-anchor='middle' fill='white' font-family='system-ui' font-weight='700' font-size='14'>TP</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/images/todor-papazov.jpg">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -36,1288 +35,628 @@
     "url": "https://todorpapazov.github.io/",
     "image": "https://todorpapazov.github.io/assets/images/todor-papazov.jpg",
     "address": { "@type": "PostalAddress", "addressLocality": "Westfield", "addressRegion": "IN" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Lincoln University" },
+      { "@type": "CollegeOrUniversity", "name": "University of Economics — Varna" }
+    ],
     "sameAs": [
       "https://www.linkedin.com/in/todorpapazov",
       "https://x.com/TodorPapazov",
       "https://github.com/TodorPapazov"
     ],
-    "knowsAbout": ["Python", "SQL", "Snowflake", "Power BI", "Data Pipelines", "Healthcare Analytics"]
+    "knowsAbout": ["Python", "SQL", "Snowflake", "Power BI", "Data Pipelines", "ETL", "Statistical Modeling", "Forecasting", "Healthcare Operations Analytics", "Financial Services"]
   }
   </script>
   <style>
     :root {
-      --accent: #1d4ed8;
-      --accent2: #3b82f6;
-      --bg: #f8fafc;
-      --surface: rgba(255, 255, 255, 0.78);
-      --surface-solid: #ffffff;
-      --text: #0f172a;
-      --muted: #64748b;
-      --border: rgba(29, 78, 216, 0.18);
-      --glow: rgba(29, 78, 216, 0.12);
-      --hud-line: rgba(29, 78, 216, 0.35);
-      --status: #10b981;
-      --nav-height: 4.25rem;
-      --display: 'Space Grotesk', system-ui, sans-serif;
-      --mono: 'IBM Plex Mono', ui-monospace, monospace;
-      --body: 'Inter', system-ui, sans-serif;
+      --accent: #4338ca;        /* indigo 700 — 7.9:1 on white */
+      --accent-strong: #3730a3;
+      --accent-soft: #eef2ff;
+      --accent-line: #c7d2fe;
+      --ink: #0f172a;
+      --text: #1e293b;
+      --muted: #475569;          /* 7.5:1 on white */
+      --line: #e2e8f0;
+      --bg: #ffffff;
+      --bg-alt: #f8fafc;
+      --code-bg: #0f172a;
+      --code-text: #e2e8f0;
+      --code-muted: #94a3b8;
+      --code-key: #a5b4fc;
+      --code-str: #86efac;
+      --code-num: #fcd34d;
+      --radius: 14px;
+      --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+      --wrap: 72rem;
     }
-
     *, *::before, *::after { box-sizing: border-box; }
-
-    html {
-      scroll-behavior: smooth;
-      scroll-padding-top: calc(var(--nav-height) + 0.75rem);
-    }
-
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
     body {
-      margin: 0;
-      font-family: var(--body);
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-      min-height: 100vh;
+      margin: 0; font-family: var(--sans); font-size: 1rem; line-height: 1.6;
+      color: var(--text); background: var(--bg);
+      -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
     }
-
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-
-    h1, h2, h3, .display {
-      font-family: var(--display);
-      letter-spacing: -0.03em;
-      font-weight: 600;
-    }
-
+    img { max-width: 100%; display: block; }
+    a { color: var(--accent); text-underline-offset: 3px; }
+    a:hover { color: var(--accent-strong); }
+    :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+    h1, h2, h3 { color: var(--ink); line-height: 1.15; letter-spacing: -0.02em; margin: 0; }
+    p { margin: 0 0 1rem; }
+    ul { margin: 0; padding: 0; }
+    .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 1.25rem; }
+    @media (min-width: 768px) { .wrap { padding: 0 2rem; } }
     .mono { font-family: var(--mono); }
-    .muted { color: var(--muted); }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+    .skip-link { position: absolute; left: 1rem; top: -3rem; z-index: 100; background: var(--ink); color: #fff; padding: 0.6rem 1rem; border-radius: 8px; text-decoration: none; }
+    .skip-link:focus { top: 1rem; color: #fff; }
+    .icon { width: 1.05em; height: 1.05em; flex: none; fill: currentColor; }
 
-    /* ---- Floating logos: side margins only (clear of content) ---- */
-    .logo-float-layer {
-      position: fixed;
-      inset: 0;
-      z-index: 0;
-      pointer-events: none;
-      overflow: hidden;
-      will-change: transform;
-      /* Hard-clear the center content column so logos never sit under text/panels */
-      -webkit-mask-image: linear-gradient(
-        to right,
-        #000 0%,
-        #000 max(0px, calc((100% - 72rem) / 2 - 0.5rem)),
-        transparent max(0px, calc((100% - 72rem) / 2 + 0.25rem)),
-        transparent calc(100% - max(0px, calc((100% - 72rem) / 2 + 0.25rem))),
-        #000 calc(100% - max(0px, calc((100% - 72rem) / 2 - 0.5rem))),
-        #000 100%
-      );
-      mask-image: linear-gradient(
-        to right,
-        #000 0%,
-        #000 max(0px, calc((100% - 72rem) / 2 - 0.5rem)),
-        transparent max(0px, calc((100% - 72rem) / 2 + 0.25rem)),
-        transparent calc(100% - max(0px, calc((100% - 72rem) / 2 + 0.25rem))),
-        #000 calc(100% - max(0px, calc((100% - 72rem) / 2 - 0.5rem))),
-        #000 100%
-      );
+    /* ---------- Header ---------- */
+    .site-header {
+      position: sticky; top: 0; z-index: 50;
+      background: rgba(255,255,255,0.92);
+      -webkit-backdrop-filter: saturate(180%) blur(10px); backdrop-filter: saturate(180%) blur(10px);
+      border-bottom: 1px solid var(--line);
     }
+    .site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 1rem; height: 4rem; }
+    .brand { display: flex; align-items: center; gap: 0.65rem; text-decoration: none; color: var(--ink); font-weight: 700; letter-spacing: -0.01em; }
+    .brand:hover { color: var(--ink); }
+    .brand-mark { display: inline-flex; align-items: center; justify-content: center; width: 2.1rem; height: 2.1rem; border-radius: 9px; background: var(--ink); color: #fff; font-family: var(--mono); font-size: 0.8rem; font-weight: 500; }
+    .brand-mark b { color: var(--code-key); font-weight: 500; }
+    .nav { display: flex; align-items: center; gap: 0.25rem; }
+    .nav-links { display: none; list-style: none; gap: 0.15rem; margin-right: 0.5rem; }
+    .nav-links a { display: block; padding: 0.45rem 0.7rem; border-radius: 8px; color: var(--muted); font-size: 0.92rem; font-weight: 500; text-decoration: none; }
+    .nav-links a:hover { color: var(--ink); background: var(--bg-alt); }
+    @media (min-width: 900px) { .nav-links { display: flex; } }
 
-    .logo-float-layer__inner {
-      position: absolute;
-      inset: 0;
-      will-change: transform;
-    }
-
-    /* Side rails = empty gutters beside the centered 72rem content column */
-    .logo-rail {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      width: max(0px, calc((100vw - 72rem) / 2));
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
-      padding: 5.5rem 0.5rem 4rem;
-      box-sizing: border-box;
-    }
-
-    .logo-rail--left { left: 0; }
-    .logo-rail--right { right: 0; }
-
-    .logo-float-item {
-      position: relative;
-      width: clamp(2.1rem, 3.2vw, 3.6rem);
-      height: clamp(2.1rem, 3.2vw, 3.6rem);
-      flex-shrink: 0;
-      opacity: 0.45;
-      filter: drop-shadow(0 2px 8px rgba(15, 23, 42, 0.08));
-      animation: logo-float var(--dur, 18s) ease-in-out infinite;
-      animation-delay: var(--delay, 0s);
-    }
-
-    .logo-float-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      display: block;
-      user-select: none;
-    }
-
-    .logo-float-item:nth-child(odd) { animation-direction: alternate-reverse; }
-    .logo-float-item:nth-child(3n) { --dur: 22s; }
-    .logo-float-item:nth-child(4n) { --dur: 26s; opacity: 0.38; }
-    .logo-float-item:nth-child(5n) { --dur: 20s; }
-
-    /* Mostly vertical float so logos stay in the margin gutters */
-    @keyframes logo-float {
-      0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg) scale(1); }
-      33% { transform: translate3d(2px, -10px, 0) rotate(2deg) scale(1.04); }
-      66% { transform: translate3d(-2px, 8px, 0) rotate(-1.5deg) scale(0.98); }
-    }
-
-    /* No side margin on narrow viewports — hide logos rather than overlapping content */
-    @media (max-width: 1180px) {
-      .logo-float-layer {
-        opacity: 0;
-        visibility: hidden;
-      }
-    }
-
-    @media (min-width: 1400px) {
-      .logo-float-item {
-        width: clamp(2.6rem, 2.8vw, 4rem);
-        height: clamp(2.6rem, 2.8vw, 4rem);
-        opacity: 0.5;
-      }
-      .logo-float-item:nth-child(4n) { opacity: 0.42; }
-    }
-
-    .grid-bg {
-      position: fixed;
-      inset: 0;
-      z-index: 0;
-      pointer-events: none;
-      opacity: 0.35;
-      background-image:
-        linear-gradient(var(--border) 1px, transparent 1px),
-        linear-gradient(90deg, var(--border) 1px, transparent 1px);
-      background-size: 48px 48px;
-      mask-image: radial-gradient(ellipse at center, black 15%, transparent 72%);
-      -webkit-mask-image: radial-gradient(ellipse at center, black 15%, transparent 72%);
-    }
-
-    .page-shell {
-      position: relative;
-      z-index: 1;
-    }
-
-    /* ---- HUD primitives ---- */
-    .hud-label {
-      font-family: var(--mono);
-      font-size: 0.68rem;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--accent);
-      font-weight: 500;
-    }
-
-    .panel {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
-      position: relative;
-    }
-
-    .panel-bracket::before,
-    .panel-bracket::after {
-      content: '';
-      position: absolute;
-      width: 12px;
-      height: 12px;
-      border-color: var(--hud-line);
-      border-style: solid;
-      pointer-events: none;
-      z-index: 1;
-    }
-
-    .panel-bracket::before {
-      top: -1px;
-      left: -1px;
-      border-width: 2px 0 0 2px;
-    }
-
-    .panel-bracket::after {
-      bottom: -1px;
-      right: -1px;
-      border-width: 0 2px 2px 0;
-    }
-
-    .bracket-tr,
-    .bracket-bl {
-      position: absolute;
-      width: 12px;
-      height: 12px;
-      border-style: solid;
-      border-color: var(--hud-line);
-      pointer-events: none;
-      z-index: 1;
-    }
-
-    .bracket-tr {
-      top: -1px;
-      right: -1px;
-      border-width: 2px 2px 0 0;
-    }
-
-    .bracket-bl {
-      bottom: -1px;
-      left: -1px;
-      border-width: 0 0 2px 2px;
-    }
-
-    .status-dot {
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: var(--status);
-      box-shadow: 0 0 8px var(--status);
-      display: inline-block;
-      flex-shrink: 0;
-    }
-
-    .chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      font-family: var(--mono);
-      font-size: 0.7rem;
-      letter-spacing: 0.06em;
-      padding: 0.3rem 0.65rem;
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      color: var(--muted);
-      background: var(--surface);
-      white-space: nowrap;
-    }
-
+    /* ---------- Buttons ---------- */
     .btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      padding: 0.75rem 1.25rem;
-      border-radius: 0.75rem;
-      font-weight: 600;
-      font-size: 0.9rem;
-      border: 1px solid transparent;
-      cursor: pointer;
-      text-decoration: none !important;
-      transition: filter 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+      display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+      min-height: 2.75rem; padding: 0.65rem 1.15rem; border-radius: 10px;
+      font: 600 0.95rem/1 var(--sans); text-decoration: none; white-space: nowrap;
+      border: 1px solid transparent; transition: background-color .15s, border-color .15s, color .15s, transform .15s;
     }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-primary:hover { background: var(--accent-strong); color: #fff; }
+    .btn-outline { background: #fff; color: var(--ink); border-color: #cbd5e1; }
+    .btn-outline:hover { border-color: var(--ink); color: var(--ink); }
+    .btn-sm { min-height: 2.4rem; padding: 0.5rem 0.9rem; font-size: 0.875rem; }
+    .btn:active { transform: translateY(1px); }
 
-    .btn-primary {
-      background: var(--accent);
-      color: #fff;
+    /* ---------- Hero ---------- */
+    .hero { padding: 1.5rem 0 1.25rem; }
+    @media (min-width: 768px) { .hero { padding: 4.5rem 0 2.5rem; } }
+    .hero-grid { display: grid; gap: 2rem; align-items: center; }
+    @media (min-width: 980px) { .hero-grid { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 3.5rem; } }
+    .hero-id { display: flex; align-items: center; gap: 0.9rem; margin-bottom: 1rem; }
+    @media (min-width: 768px) { .hero-id { margin-bottom: 1.5rem; } }
+    .hero-photo { width: 4rem; height: 4rem; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 0 0 1px var(--line), 0 6px 18px rgba(15,23,42,.12); }
+    @media (min-width: 768px) { .hero-photo { width: 4.75rem; height: 4.75rem; } }
+    .hero-name { font-weight: 700; color: var(--ink); font-size: 1.05rem; line-height: 1.3; }
+    .hero-role { color: var(--muted); font-size: 0.92rem; line-height: 1.4; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 0.5rem; font-family: var(--mono); font-size: 0.78rem; font-weight: 500; color: var(--accent); letter-spacing: 0.02em; margin-bottom: 0.9rem; }
+    .dot { width: 0.5rem; height: 0.5rem; border-radius: 50%; background: #16a34a; box-shadow: 0 0 0 3px #dcfce7; }
+    .hero h1 { font-size: clamp(2rem, 7.4vw, 3.6rem); font-weight: 800; letter-spacing: -0.035em; line-height: 1.05; margin-bottom: 1rem; }
+    .hero h1 .hl { color: var(--accent); }
+    .lede { font-size: 1rem; color: var(--muted); max-width: 36rem; margin-bottom: 1.5rem; }
+    @media (min-width: 768px) { .lede { font-size: 1.2rem; } }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .hero-meta { display: flex; flex-wrap: wrap; gap: 0.35rem 1.1rem; margin-top: 1rem; font-size: 0.85rem; color: var(--muted); list-style: none; }
+    .hero-meta li { display: inline-flex; align-items: center; gap: 0.35rem; }
+
+    /* Terminal card */
+    .terminal { margin: 0;
+      background: var(--code-bg); color: var(--code-text); border-radius: var(--radius);
+      font-family: var(--mono); font-size: 0.8rem; line-height: 1.7;
+      box-shadow: 0 24px 48px -12px rgba(15,23,42,.35); overflow: hidden;
     }
+    @media (min-width: 768px) { .terminal { font-size: 0.86rem; } }
+    .terminal-bar { display: flex; align-items: center; gap: 0.4rem; padding: 0.7rem 1rem; border-bottom: 1px solid #1e293b; }
+    .terminal-bar span { width: 0.65rem; height: 0.65rem; border-radius: 50%; background: #334155; }
+    .terminal-bar .t-title { width: auto; height: auto; background: none; margin-left: 0.5rem; color: var(--code-muted); font-size: 0.75rem; border-radius: 0; }
+    .terminal pre { margin: 0; padding: 1rem 1.15rem 1.2rem; overflow-x: auto; white-space: pre; }
+    .terminal .c { color: var(--code-muted); }
+    .terminal .k { color: var(--code-key); }
+    .terminal .s { color: var(--code-str); }
+    .terminal .n { color: var(--code-num); }
+    .terminal .p { color: #f9a8d4; }
+    .hero-terminal { display: none; }
+    @media (min-width: 980px) { .hero-terminal { display: block; } }
 
-    .btn-primary:hover { filter: brightness(1.08); }
+    /* ---------- Metrics ---------- */
+    .metrics { padding: 0 0 2.5rem; }
+    @media (min-width: 768px) { .metrics { padding-bottom: 4rem; } }
+    .metric-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 0.75rem; list-style: none; }
+    @media (min-width: 768px) { .metric-grid { grid-template-columns: repeat(4, minmax(0,1fr)); gap: 1rem; } }
+    .metric { border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem 1.1rem; background: #fff; }
+    @media (min-width: 768px) { .metric { padding: 1.4rem 1.5rem; } }
+    .metric-val { display: block; font-size: clamp(1.75rem, 6vw, 2.5rem); font-weight: 800; letter-spacing: -0.03em; color: var(--ink); line-height: 1.1; }
+    .metric-val em { font-style: normal; color: var(--accent); }
+    .metric-label { display: block; margin-top: 0.35rem; font-size: 0.85rem; color: var(--muted); line-height: 1.4; }
+    .metric:first-child { background: var(--accent); border-color: var(--accent); }
+    .metric:first-child .metric-val, .metric:first-child .metric-val em { color: #fff; }
+    .metric:first-child .metric-label { color: #e0e7ff; }
 
-    .btn-ghost {
-      background: transparent;
-      color: var(--text);
-      border-color: var(--border);
+    /* ---------- Sections ---------- */
+    section[id] { scroll-margin-top: 4.5rem; }
+    .section { padding: 3.5rem 0; }
+    @media (min-width: 768px) { .section { padding: 5.5rem 0; } }
+    .section-alt { background: var(--bg-alt); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .section-head { margin-bottom: 2rem; max-width: 44rem; }
+    @media (min-width: 768px) { .section-head { margin-bottom: 2.75rem; } }
+    .kicker { font-family: var(--mono); font-size: 0.78rem; font-weight: 500; color: var(--accent); margin-bottom: 0.6rem; display: block; }
+    .section-head h2 { font-size: clamp(1.6rem, 4.5vw, 2.4rem); font-weight: 800; letter-spacing: -0.03em; }
+    .section-head p { color: var(--muted); margin: 0.85rem 0 0; font-size: 1.05rem; }
+
+    /* ---------- Case studies ---------- */
+    .cases { display: grid; gap: 1.25rem; }
+    @media (min-width: 980px) { .cases { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 1.5rem; } }
+    .card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 1.4rem; display: flex; flex-direction: column; }
+    @media (min-width: 768px) { .card { padding: 1.9rem; } }
+    .card-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem; margin-bottom: 0.75rem; }
+    .tag { display: inline-block; font-family: var(--mono); font-size: 0.72rem; font-weight: 500; color: var(--accent); background: var(--accent-soft); border: 1px solid var(--accent-line); border-radius: 999px; padding: 0.2rem 0.6rem; }
+    .tag-plain { color: var(--muted); background: var(--bg-alt); border-color: var(--line); }
+    .card h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 0.4rem; }
+    .card .sub { color: var(--muted); font-size: 0.92rem; margin-bottom: 1.1rem; }
+    .case-rows { display: grid; gap: 0.9rem; margin: 0 0 1.25rem; }
+    .case-rows div { display: grid; gap: 0.15rem; }
+    @media (min-width: 560px) { .case-rows div { grid-template-columns: 6.5rem 1fr; gap: 1rem; } }
+    .case-rows dt { font-family: var(--mono); font-size: 0.75rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); padding-top: 0.2rem; }
+    .case-rows dd { margin: 0; font-size: 0.97rem; }
+    .result { display: flex; gap: 0.75rem; flex-wrap: wrap; margin: 0 0 1.25rem; list-style: none; }
+    .result li { flex: 1 1 8rem; border-left: 3px solid var(--accent); padding: 0.15rem 0 0.15rem 0.75rem; }
+    .result strong { display: block; font-size: 1.45rem; font-weight: 800; color: var(--ink); letter-spacing: -0.02em; line-height: 1.15; }
+    .result span { font-size: 0.83rem; color: var(--muted); line-height: 1.35; display: block; }
+    .stack { display: flex; flex-wrap: wrap; gap: 0.4rem; list-style: none; margin-top: auto; padding-top: 0.25rem; }
+    .stack li { font-family: var(--mono); font-size: 0.75rem; color: var(--text); background: var(--bg-alt); border: 1px solid var(--line); border-radius: 6px; padding: 0.2rem 0.5rem; }
+
+    /* Project cards */
+    .projects { display: grid; gap: 1rem; margin-top: 1.25rem; }
+    @media (min-width: 680px) { .projects { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+    @media (min-width: 1100px) { .projects { grid-template-columns: repeat(4, minmax(0,1fr)); } }
+    .project { padding: 1.35rem; }
+    .project h3 { font-size: 1.12rem; }
+    .project p { color: var(--muted); font-size: 0.93rem; margin-bottom: 1rem; }
+    .project .stack { margin-bottom: 1.1rem; }
+    .project-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .subhead { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-top: 3rem; }
+    .subhead h3 { font-size: 1.25rem; font-weight: 700; }
+    .subhead p { margin: 0; color: var(--muted); font-size: 0.93rem; }
+
+    /* ---------- Experience ---------- */
+    .timeline { list-style: none; position: relative; }
+    .job { position: relative; padding: 0 0 2.25rem 1.75rem; }
+    .job::before { content: ""; position: absolute; left: 0.3rem; top: 0.5rem; bottom: -0.5rem; width: 2px; background: var(--line); }
+    .job:last-child::before { display: none; }
+    .job::after { content: ""; position: absolute; left: 0; top: 0.35rem; width: 0.75rem; height: 0.75rem; border-radius: 50%; background: #fff; border: 2px solid var(--accent); }
+    .job.current::after { background: var(--accent); }
+    @media (min-width: 900px) {
+      .job { display: grid; grid-template-columns: 11rem minmax(0,1fr); gap: 2rem; padding-left: 2.25rem; }
     }
+    .job-when { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); padding-top: 0.15rem; margin-bottom: 0.3rem; }
+    .job h3 { font-size: 1.15rem; font-weight: 700; }
+    .job .org { color: var(--muted); font-size: 0.93rem; margin: 0.2rem 0 0.75rem; }
+    .job .org strong { color: var(--text); font-weight: 600; }
+    .job ul { padding-left: 1.1rem; }
+    .job li { margin: 0.35rem 0; font-size: 0.97rem; }
+    .job li::marker { color: var(--accent); }
+    .job li b { color: var(--ink); }
+    .group-label { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 1.25rem; padding-left: 1.75rem; }
+    @media (min-width: 900px) { .group-label { padding-left: 2.25rem; } }
 
-    .btn-ghost:hover { background: var(--glow); }
+    /* ---------- Skills ---------- */
+    .skills { display: grid; gap: 1rem; }
+    @media (min-width: 680px) { .skills { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+        .skill-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.85rem; display: flex; align-items: center; gap: 0.5rem; }
+    .skill-card h3 .mono { color: var(--accent); font-size: 0.8rem; font-weight: 500; }
+    .pills { display: flex; flex-wrap: wrap; gap: 0.4rem; list-style: none; }
+    .pills li { font-size: 0.85rem; line-height: 1.35; padding: 0.3rem 0.65rem; border-radius: 8px; background: var(--bg-alt); border: 1px solid var(--line); color: var(--text); }
 
-    .skill-pill {
-      display: inline-block;
-      font-size: 0.75rem;
-      padding: 0.3rem 0.65rem;
-      margin: 0.15rem;
-      border-radius: 999px;
-      border: 1px solid var(--border);
-      background: var(--surface-solid);
-      color: var(--text);
-      transition: border-color 0.15s ease, box-shadow 0.15s ease;
-    }
+    /* ---------- Education ---------- */
+    .edu { display: grid; gap: 1rem; }
+    @media (min-width: 900px) { .edu { grid-template-columns: minmax(0,1fr) minmax(0,1.2fr) minmax(0,1fr); } }
+    .edu h3 { font-size: 1rem; font-weight: 700; margin-bottom: 1rem; }
+    .edu-item { margin-bottom: 1rem; }
+    .edu-item:last-child { margin-bottom: 0; }
+    .edu-item strong { display: block; color: var(--ink); font-weight: 600; line-height: 1.4; }
+    .edu-item span { color: var(--muted); font-size: 0.9rem; }
+    .cert-list { list-style: none; display: grid; gap: 0.75rem; }
+    .cert-list li { display: flex; justify-content: space-between; gap: 0.75rem; align-items: baseline; border-bottom: 1px dashed var(--line); padding-bottom: 0.65rem; }
+    .cert-list li:last-child { border-bottom: 0; padding-bottom: 0; }
+    .cert-list .who { font-family: var(--mono); font-size: 0.75rem; color: var(--muted); white-space: nowrap; }
+    .cert-list a, .cert-list strong { font-weight: 600; }
+    .note { font-size: 0.85rem; color: var(--muted); margin: 1rem 0 0; }
+    .learn-list { list-style: none; display: grid; gap: 0.9rem; }
+    .learn-list li { font-size: 0.93rem; }
+    .learn-list .when { display: block; font-family: var(--mono); font-size: 0.72rem; color: var(--muted); }
 
-    .skill-pill:hover {
-      border-color: var(--accent);
-      box-shadow: 0 0 0 3px var(--glow);
-    }
+    /* ---------- Contact ---------- */
+    .contact { background: var(--code-bg); color: var(--code-text); border-radius: 20px; padding: 2rem 1.4rem; display: grid; gap: 2rem; }
+    @media (min-width: 900px) { .contact { grid-template-columns: minmax(0,1.2fr) minmax(0,1fr); padding: 3.25rem; align-items: center; } }
+    .contact h2 { color: #fff; font-size: clamp(1.7rem, 4.5vw, 2.5rem); font-weight: 800; letter-spacing: -0.03em; margin-bottom: 0.85rem; }
+    .contact p { color: #cbd5e1; font-size: 1.05rem; max-width: 34rem; }
+    .contact .kicker { color: var(--code-key); }
+    .contact .btn-primary { background: #fff; color: var(--ink); }
+    .contact .btn-primary:hover { background: var(--accent-soft); color: var(--ink); }
+    .contact .btn-outline { background: transparent; color: #fff; border-color: #475569; }
+    .contact .btn-outline:hover { border-color: #fff; color: #fff; }
+    .contact-links { list-style: none; display: grid; gap: 0.6rem; }
+    .contact-links a { display: flex; align-items: center; gap: 0.75rem; padding: 0.85rem 1rem; border-radius: 12px; border: 1px solid #1e293b; background: #111c33; color: #fff; text-decoration: none; font-weight: 500; }
+    .contact-links a:hover { border-color: var(--code-key); color: #fff; }
+    .contact-links .handle { margin-left: auto; font-family: var(--mono); font-size: 0.78rem; color: var(--code-muted); }
 
-    .metric-val {
-      font-family: var(--display);
-      font-size: 2rem;
-      font-weight: 600;
-      color: var(--accent);
-      letter-spacing: -0.03em;
-      line-height: 1.1;
-    }
-
-    .section {
-      padding: 3.5rem 1.5rem;
-      max-width: 72rem;
-      margin: 0 auto;
-    }
-
-    .section-title {
-      font-size: clamp(1.6rem, 3vw, 2.25rem);
-      margin: 0.4rem 0 1.25rem;
-    }
-
-    .grid-metrics {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 0.85rem;
-    }
-
-    @media (min-width: 768px) {
-      .grid-metrics { grid-template-columns: repeat(4, 1fr); }
-    }
-
-    .role {
-      padding: 1.35rem 1.5rem;
-      margin-bottom: 1rem;
-      border-radius: 1rem;
-      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-    }
-
-    .role:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 12px 28px -8px rgba(29, 78, 216, 0.12);
-      border-color: rgba(29, 78, 216, 0.28);
-    }
-
-    .role h3 {
-      margin: 0 0 0.15rem;
-      font-size: 1.15rem;
-    }
-
-    .role ul {
-      margin: 0.75rem 0 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    .role li {
-      position: relative;
-      padding-left: 1rem;
-      margin: 0.4rem 0;
-      font-size: 0.92rem;
-      color: var(--muted);
-    }
-
-    .role li::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0.55em;
-      width: 5px;
-      height: 5px;
-      border-radius: 1px;
-      background: var(--accent);
-    }
-
-    .skills-grid {
-      display: grid;
-      gap: 0.85rem;
-      grid-template-columns: 1fr;
-    }
-
-    @media (min-width: 768px) {
-      .skills-grid { grid-template-columns: repeat(2, 1fr); }
-    }
-
-    @media (min-width: 1024px) {
-      .skills-grid { grid-template-columns: repeat(4, 1fr); }
-    }
-
-    .edu-grid {
-      display: grid;
-      gap: 1rem;
-      grid-template-columns: 1fr;
-    }
-
-    @media (min-width: 768px) {
-      .edu-grid { grid-template-columns: 1fr 1fr; }
-    }
-
-    .activity-grid,
-    .work-grid {
-      display: grid;
-      gap: 0.85rem;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    }
-
-    .work-card h3 {
-      margin: 0.35rem 0 0.4rem;
-      font-size: 1.2rem;
-    }
-
-    .work-card p {
-      margin: 0 0 0.9rem;
-      color: var(--muted);
-      font-size: 0.92rem;
-    }
-
-    .work-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
-
-    /* ---- Nav ---- */
-    .top-nav {
-      position: sticky;
-      top: 0;
-      z-index: 50;
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      background: color-mix(in srgb, var(--bg) 82%, transparent);
-      border-bottom: 1px solid var(--border);
-    }
-
-    .top-nav__inner {
-      max-width: 72rem;
-      margin: 0 auto;
-      padding: 0.85rem 1.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem;
-      min-height: var(--nav-height);
-    }
-
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 0.65rem;
-      text-decoration: none !important;
-      color: var(--text);
-      flex-shrink: 0;
-    }
-
-    .brand-mark {
-      width: 2.1rem;
-      height: 2.1rem;
-      border-radius: 0.55rem;
-      display: grid;
-      place-items: center;
-      background: var(--accent);
-      color: #fff;
-      font-family: var(--display);
-      font-weight: 700;
-      font-size: 0.85rem;
-      box-shadow: 0 0 0 1px var(--hud-line), 0 0 18px var(--glow);
-    }
-
-    .nav-desktop {
-      display: none;
-      flex-wrap: wrap;
-      gap: 0.85rem;
-      font-size: 0.85rem;
-      align-items: center;
-    }
-
-    .nav-desktop a {
-      color: var(--muted);
-      text-decoration: none;
-      transition: color 0.15s ease;
-    }
-
-    .nav-desktop a:hover,
-    .nav-desktop a.active {
-      color: var(--text);
-      text-decoration: none;
-    }
-
-    .nav-desktop a.active {
-      font-weight: 500;
-    }
-
-    .nav-actions {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    #mobile-menu-btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 2.5rem;
-      height: 2.5rem;
-      border-radius: 0.65rem;
-      border: 1px solid var(--border);
-      background: var(--surface);
-      color: var(--text);
-      cursor: pointer;
-    }
-
-    #mobile-menu {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.3s ease;
-      border-top: 1px solid transparent;
-    }
-
-    #mobile-menu.open {
-      max-height: 28rem;
-      border-top-color: var(--border);
-    }
-
-    #mobile-menu .mobile-links {
-      padding: 0.75rem 1.5rem 1rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.15rem;
-      max-width: 72rem;
-      margin: 0 auto;
-    }
-
-    #mobile-menu a {
-      display: block;
-      padding: 0.65rem 0.75rem;
-      border-radius: 0.65rem;
-      color: var(--muted);
-      text-decoration: none;
-      font-size: 0.9rem;
-    }
-
-    #mobile-menu a:hover {
-      background: var(--glow);
-      color: var(--text);
-    }
-
-    @media (min-width: 960px) {
-      .nav-desktop { display: flex; }
-      #mobile-menu-btn { display: none; }
-    }
-
-    /* ---- Hero ---- */
-    .hero-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
-      align-items: center;
-    }
-
-    .avatar-frame {
-      width: 11.5rem;
-      height: 11.5rem;
-      border-radius: 1.25rem;
-      overflow: hidden;
-      flex-shrink: 0;
-      box-shadow: 0 0 0 1px var(--hud-line), 0 20px 50px var(--glow);
-    }
-
-    .avatar-frame img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-    }
-
-    @media (min-width: 768px) {
-      .avatar-frame {
-        width: 13rem;
-        height: 13rem;
-      }
-    }
-
-    .hero-copy { flex: 1; min-width: 16rem; }
-
-    .resume-cta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.25rem;
-      align-items: center;
-      justify-content: space-between;
-      padding: 1.75rem 1.75rem;
-      border-radius: 1.1rem;
-      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
-      color: #fff;
-      border: 1px solid rgba(147, 197, 253, 0.25);
-    }
-
-    .resume-cta .hud-label { color: #93c5fd; }
-    .resume-cta p { color: #cbd5e1; margin: 0.35rem 0 0; max-width: 28rem; }
-    .resume-cta .btn-primary {
-      background: #fff;
-      color: #0f172a;
-    }
-
-    .footer {
-      border-top: 1px solid var(--border);
-      padding: 2rem 1.5rem;
-      text-align: center;
-      font-size: 0.85rem;
-      color: var(--muted);
-      position: relative;
-      z-index: 1;
-    }
-
+    /* ---------- Footer ---------- */
+    .footer { padding: 2rem 0 2.5rem; color: var(--muted); font-size: 0.85rem; }
+    .footer .wrap { display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem; justify-content: space-between; }
     .footer a { color: var(--muted); }
-    .footer a:hover { color: var(--accent); }
-
-    .footer-inner {
-      max-width: 72rem;
-      margin: 0 auto;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      justify-content: space-between;
-      align-items: center;
-      text-align: left;
-    }
-
-    #back-to-top {
-      position: fixed;
-      bottom: 1.25rem;
-      right: 1.25rem;
-      z-index: 60;
-      width: 2.75rem;
-      height: 2.75rem;
-      border: 1px solid var(--border);
-      border-radius: 0.75rem;
-      background: var(--accent);
-      color: #fff;
-      cursor: pointer;
-      opacity: 0;
-      visibility: hidden;
-      transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
-      box-shadow: 0 8px 24px rgba(29, 78, 216, 0.25);
-    }
-
-    #back-to-top.visible {
-      opacity: 1;
-      visibility: visible;
-    }
-
-    #back-to-top:hover { transform: translateY(-2px); }
-
-    .skip-link {
-      position: absolute;
-      top: -100%;
-      left: 1rem;
-      z-index: 100;
-      padding: 0.5rem 1rem;
-      background: var(--accent);
-      color: #fff;
-      font-size: 0.875rem;
-      font-weight: 600;
-      border-radius: 0 0 0.5rem 0.5rem;
-      transition: top 0.2s ease;
-    }
-
-    .skip-link:focus { top: 0; }
-
-    a:focus-visible,
-    button:focus-visible {
-      outline: 2px solid var(--accent);
-      outline-offset: 2px;
-      border-radius: 4px;
-    }
-
-    .fade-in {
-      opacity: 0;
-      transform: translateY(14px);
-      transition: opacity 0.5s ease, transform 0.5s ease;
-    }
-
-    .fade-in.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      html { scroll-behavior: auto; }
-      .logo-float-item { animation: none !important; }
-      .logo-float-layer,
-      .logo-float-layer__inner { transform: none !important; }
-      .fade-in { opacity: 1; transform: none; transition: none; }
-      .role:hover { transform: none; }
-    }
-
-    @media print {
-      .logo-float-layer, .grid-bg, .top-nav, #back-to-top, #mobile-menu-btn { display: none !important; }
-      .panel { backdrop-filter: none; background: #fff; break-inside: avoid; }
-    }
   </style>
 </head>
-<body id="top">
+<body>
   <a href="#main" class="skip-link">Skip to content</a>
 
-  <!-- Soft grid -->
-  <div class="grid-bg" aria-hidden="true"></div>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23 5.45-6.23Zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64Z"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3a1 1 0 0 1 1 1v9.59l3.3-3.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1ZM4 18a1 1 0 0 1 1 1v1h14v-1a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1Z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></symbol>
+  </svg>
 
-  <!-- Floating Data & AI logos — left/right margins only (never under content) -->
-  <div class="logo-float-layer" id="logo-float-layer" aria-hidden="true">
-    <div class="logo-float-layer__inner" id="logo-float-inner">
-      <div class="logo-rail logo-rail--left">
-        <div class="logo-float-item" style="--delay: 0s;"><img src="assets/logos/googlecloud.svg" alt="" loading="lazy" decoding="async"></div>
-        <div class="logo-float-item" style="--delay: -2s;"><img src="assets/logos/python.svg" alt="" loading="lazy" decoding="async"></div>
-        <div class="logo-float-item" style="--delay: -4s;"><img src="assets/logos/snowflake.svg" alt="" loading="lazy" decoding="async"></div>
-        <div class="logo-float-item" style="--delay: -1s;"><img src="assets/logos/powerbi.svg" alt="" loading="lazy" decoding="async"></div>
-        <div class="logo-float-item" style="--delay: -6s;"><img src="assets/logos/sql.svg" alt="" loading="lazy" decoding="async"></div>
-        <div class="logo-float-item" style="--delay: -3s;"><img src="assets/logos/visualstudiocode.svg" alt="" loading="lazy" decoding="async"></div>
-        <div class="logo-float-item" style="--delay: -7s;"><img src="assets/logos/grok.svg" alt="" loading="lazy" decoding="async"></div>
-        <div class="logo-float-item" style="--delay: -5s;"><img src="assets/logos/amazonaws.svg" alt="" loading="lazy" decoding="async"></div>
-      </div>
-      <div class="logo-rail logo-rail--right">
-        <div class="logo-float-item" style="--delay: -1.5s;"><img src="assets/logos/microsoftazure.svg" alt="" loading="lazy" decoding="async"></div>
-        <div class="logo-float-item" style="--delay: -3.5s;"><img src="assets/logos/anthropic.svg" alt="" loading="lazy" decoding="async"></div>
-        <div class="logo-float-item" style="--delay: -0.5s;"><img src="assets/logos/githubcopilot.svg" alt="" loading="lazy" decoding="async"></div>
-        <div class="logo-float-item" style="--delay: -8s;"><img src="assets/logos/python.svg" alt="" loading="lazy" decoding="async"></div>
-        <div class="logo-float-item" style="--delay: -2.5s;"><img src="assets/logos/snowflake.svg" alt="" loading="lazy" decoding="async"></div>
-        <div class="logo-float-item" style="--delay: -6.5s;"><img src="assets/logos/powerbi.svg" alt="" loading="lazy" decoding="async"></div>
-        <div class="logo-float-item" style="--delay: -4.5s;"><img src="assets/logos/googlecloud.svg" alt="" loading="lazy" decoding="async"></div>
-        <div class="logo-float-item" style="--delay: -9s;"><img src="assets/logos/grok.svg" alt="" loading="lazy" decoding="async"></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="page-shell">
-    <header class="top-nav" role="banner">
-      <div class="top-nav__inner">
-        <a href="#top" class="brand" aria-label="Todor Papazov — Home">
-          <span class="brand-mark">TP</span>
-          <span>
-            <span style="display:block;font-weight:600;line-height:1.1;">Todor Papazov</span>
-            <span class="mono muted" style="font-size:0.62rem;letter-spacing:0.1em;">DATA ANALYTICS &amp; DATA SCIENCE</span>
-          </span>
+  <header class="site-header">
+    <div class="wrap">
+      <a href="#top" class="brand" aria-label="Todor Papazov, back to top">
+        <span class="brand-mark" aria-hidden="true">T<b>P</b></span>
+        <span>Todor Papazov</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <ul class="nav-links">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn-primary btn-sm" href="assets/resume/Todor_Papazov_Resume.pdf" download="Todor_Papazov_Resume.pdf">
+          <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg> Resume
         </a>
+      </nav>
+    </div>
+  </header>
 
-        <nav class="nav-desktop" aria-label="Main navigation">
-          <a href="#about" class="nav-link" data-section="about">About</a>
-          <a href="#work" class="nav-link" data-section="work">Work</a>
-          <a href="#experience" class="nav-link" data-section="experience">Experience</a>
-          <a href="#skills" class="nav-link" data-section="skills">Skills</a>
-          <a href="#activity" class="nav-link" data-section="activity">Activity</a>
-          <a href="#contact" class="nav-link" data-section="contact">Contact</a>
-          <span class="chip"><span class="status-dot"></span> SYS · ONLINE</span>
-          <a class="btn btn-primary" href="#resume" style="padding:0.45rem 0.9rem;font-size:0.8rem;">
-            <i class="fa-solid fa-download" aria-hidden="true"></i> Resume
-          </a>
-        </nav>
-
-        <div class="nav-actions">
-          <a class="btn btn-ghost" href="https://www.linkedin.com/in/todorpapazov" target="_blank" rel="noopener noreferrer"
-             aria-label="LinkedIn profile" style="padding:0.45rem 0.75rem;font-size:0.8rem;display:none;" id="nav-linkedin">
-            <i class="fab fa-linkedin" style="color:#0a66c2;" aria-hidden="true"></i>
-          </a>
-          <button id="mobile-menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Toggle navigation menu">
-            <i class="fa-solid fa-bars" id="menu-icon-open" aria-hidden="true"></i>
-            <i class="fa-solid fa-xmark hidden" id="menu-icon-close" aria-hidden="true" style="display:none;"></i>
-          </button>
-        </div>
-      </div>
-
-      <div id="mobile-menu">
-        <div class="mobile-links">
-          <a href="#about" class="mobile-nav-link">About</a>
-          <a href="#work" class="mobile-nav-link">Work</a>
-          <a href="#experience" class="mobile-nav-link">Experience</a>
-          <a href="#skills" class="mobile-nav-link">Skills</a>
-          <a href="#activity" class="mobile-nav-link">Activity</a>
-          <a href="#contact" class="mobile-nav-link">Contact</a>
-          <a href="#resume" class="mobile-nav-link" style="color:var(--accent);font-weight:600;">Download Resume</a>
-        </div>
-      </div>
-    </header>
-
-    <main id="main">
-      <!-- Hero -->
-      <section class="section" style="padding-top:2.5rem;" aria-label="Introduction">
-        <div class="hero-row">
-          <div class="panel panel-bracket avatar-frame">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <img src="assets/images/todor-papazov.jpg" alt="Todor 'Todd' Papazov professional headshot"
-                 width="208" height="208" loading="eager" decoding="async">
-          </div>
-          <div class="hero-copy">
-            <div class="chip" style="margin-bottom:0.75rem;"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</div>
-            <div class="hud-label">DATA ANALYTICS &amp; DATA SCIENCE</div>
-            <h1 class="display" style="font-size:clamp(2.2rem,5vw,3.4rem);margin:0.35rem 0 0.4rem;line-height:1.05;">
-              Todor "Todd" Papazov
-            </h1>
-            <p style="font-size:1.2rem;margin:0 0 0.75rem;color:var(--muted);">Operations Data Analyst @ TRIMEDX</p>
-            <p class="muted" style="max-width:36rem;margin:0 0 1.1rem;">
-              Data analytics professional with 7+ years in data preparation, pipelines, and statistical modeling for healthcare operations and financial services.
-            </p>
-            <div style="display:flex;flex-wrap:wrap;gap:0.6rem;">
-              <a class="btn btn-primary" href="#resume">
-                <i class="fa-solid fa-download" aria-hidden="true"></i> Download Resume
-              </a>
-              <a class="btn btn-ghost" href="https://github.com/TodorPapazov" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github" aria-hidden="true"></i> GitHub
-              </a>
-              <a class="btn btn-ghost" href="https://www.linkedin.com/in/todorpapazov" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
-              </a>
-            </div>
-            <div class="mono muted" style="margin-top:0.9rem;font-size:0.75rem;">
-              <i class="fa-solid fa-location-dot" aria-hidden="true"></i> Westfield, Indiana · He/Him
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="hero-id">
+            <img class="hero-photo" src="assets/images/todor-papazov.jpg" alt="Headshot of Todor “Todd” Papazov" width="400" height="400" fetchpriority="high">
+            <div>
+              <div class="hero-name">Todor “Todd” Papazov</div>
+              <div class="hero-role">Operations Data Analyst at TRIMEDX</div>
             </div>
           </div>
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Open to data &amp; AI engineering roles</p>
+          <h1 id="hero-title">I build the pipelines, models, and tools <span class="hl">behind business decisions.</span></h1>
+          <p class="lede">7+ years turning messy operational data into answers people act on, across healthcare operations and regulated financial services. Python, SQL, Snowflake, and Power BI on the job; small web tools on the side.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#work">See my work</a>
+            <a class="btn btn-outline" href="assets/resume/Todor_Papazov_Resume.pdf" download="Todor_Papazov_Resume.pdf">
+              <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg> Download resume
+            </a>
+          </div>
+          <ul class="hero-meta">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg> Westfield, Indiana</li>
+            <li>He/Him</li>
+            <li><a href="https://www.linkedin.com/in/todorpapazov" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://github.com/TodorPapazov" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          </ul>
         </div>
-      </section>
 
-      <!-- Metrics -->
-      <section class="section" style="padding-top:0;" aria-label="Key achievements">
-        <div class="grid-metrics">
-          <div class="panel panel-bracket role fade-in" style="margin:0;text-align:center;padding:1.15rem;">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="metric-val">$19M</div>
-            <div class="mono muted" style="font-size:0.65rem;margin-top:0.35rem;letter-spacing:0.06em;">ANNUAL COST SAVINGS</div>
-          </div>
-          <div class="panel panel-bracket role fade-in" style="margin:0;text-align:center;padding:1.15rem;">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="metric-val">25%</div>
-            <div class="mono muted" style="font-size:0.65rem;margin-top:0.35rem;letter-spacing:0.06em;">REPORTING ERROR REDUCTION</div>
-          </div>
-          <div class="panel panel-bracket role fade-in" style="margin:0;text-align:center;padding:1.15rem;">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="metric-val">1M+</div>
-            <div class="mono muted" style="font-size:0.65rem;margin-top:0.35rem;letter-spacing:0.06em;">RECORDS ANALYZED</div>
-          </div>
-          <div class="panel panel-bracket role fade-in" style="margin:0;text-align:center;padding:1.15rem;">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="metric-val">7+</div>
-            <div class="mono muted" style="font-size:0.65rem;margin-top:0.35rem;letter-spacing:0.06em;">YEARS OF EXPERIENCE</div>
-          </div>
+        <figure class="terminal hero-terminal" aria-label="Profile summary shown as a code snippet">
+          <div class="terminal-bar" aria-hidden="true"><span></span><span></span><span></span><span class="t-title">profile.py</span></div>
+<pre><code><span class="c"># what I bring to a data team</span>
+<span class="k">todd</span> = {
+  <span class="s">"role"</span>:    <span class="s">"Operations Data Analyst"</span>,
+  <span class="s">"org"</span>:     <span class="s">"TRIMEDX"</span>,
+  <span class="s">"years"</span>:   <span class="n">7</span>,
+  <span class="s">"domains"</span>: [<span class="s">"healthcare"</span>, <span class="s">"finance"</span>],
+  <span class="s">"stack"</span>:   [<span class="s">"Python"</span>, <span class="s">"SQL"</span>,
+              <span class="s">"Snowflake"</span>, <span class="s">"Power BI"</span>],
+  <span class="s">"sources"</span>: [<span class="s">"CMMS"</span>, <span class="s">"RTLS"</span>, <span class="s">"EHR"</span>],
+}
+
+<span class="p">&gt;&gt;&gt;</span> impact(<span class="k">todd</span>)
+<span class="c">annual_savings     </span><span class="n">$19M</span>
+<span class="c">reporting_errors   </span><span class="n">-25%</span>
+<span class="c">contract_revenue   </span><span class="n">+15%</span>
+<span class="c">team_productivity  </span><span class="n">+20%</span></code></pre>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Impact numbers -->
+    <section class="metrics" aria-label="Impact at a glance">
+      <div class="wrap">
+        <ul class="metric-grid">
+          <li class="metric"><span class="metric-val">$19M</span><span class="metric-label">annual cost savings my analysis contributed to</span></li>
+          <li class="metric"><span class="metric-val"><em>−</em>25%</span><span class="metric-label">reporting errors after new pipelines &amp; controls</span></li>
+          <li class="metric"><span class="metric-val">1M<em>+</em></span><span class="metric-label">healthcare records prepared &amp; analyzed</span></li>
+          <li class="metric"><span class="metric-val">7<em>+</em></span><span class="metric-label">years in healthcare ops &amp; financial services</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section class="section section-alt" id="work" aria-labelledby="work-title">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="kicker">01 / Work</span>
+          <h2 id="work-title">Selected work</h2>
+          <p>Two case studies from my day job, then things I have built and shipped on my own.</p>
         </div>
-      </section>
 
-      <!-- About -->
-      <section id="about" class="section fade-in">
-        <div class="hud-label">About</div>
-        <h2 class="section-title">Data professional focused on pipelines, exploratory analysis, and modeling insights.</h2>
-        <div class="panel panel-bracket role">
-          <span class="bracket-tr"></span><span class="bracket-bl"></span>
-          <p class="muted" style="margin:0 0 0.85rem;">
-            Results-driven Data Analytics professional with 7+ years specializing in data preparation, wrangling, exploratory analysis, pipeline development, and statistical modeling for healthcare operations and financial services in regulated environments.
-          </p>
-          <p class="muted" style="margin:0;">
-            Expert in Python (Pandas, NumPy), SQL, Snowflake, and Power BI. Proven track record building data analysis pipelines and performing exploratory analyses that reduced reporting errors by 25% and supported $19M in cost savings plus 15% revenue growth. MBA-trained analyst who partners closely with stakeholders to drive data initiatives that deliver actionable insights.
-          </p>
+        <div class="cases">
+          <article class="card">
+            <div class="card-top">
+              <span class="tag">Healthcare operations</span>
+              <span class="tag tag-plain">TRIMEDX · 2024–now</span>
+            </div>
+            <h3>Clean data and live KPIs for clinical engineering</h3>
+            <p class="sub">Operations Data Analyst</p>
+            <dl class="case-rows">
+              <div><dt>Problem</dt><dd>Operational data was spread across CMMS, RTLS, and EHR systems, and leadership needed more accurate reporting to make decisions.</dd></div>
+              <div><dt>Approach</dt><dd>Prepared and explored 1M+ healthcare records, built end-to-end pipelines with validation controls, and fed Power BI dashboards tracking KPIs, performance, and risk signals. Partnered with Clinical Engineering and operations leaders on forecasting and ROI models.</dd></div>
+            </dl>
+            <ul class="result" aria-label="Results">
+              <li><strong>−25%</strong><span>reporting errors</span></li>
+              <li><strong>$19M</strong><span>annual savings contributed to</span></li>
+            </ul>
+            <ul class="stack" aria-label="Stack">
+              <li>Python</li><li>Pandas</li><li>SQL</li><li>Snowflake</li><li>Power BI</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card-top">
+              <span class="tag">Portfolio &amp; contracts</span>
+              <span class="tag tag-plain">TRIMEDX · 2022–2024</span>
+            </div>
+            <h3>Contract analytics and automated reporting</h3>
+            <p class="sub">Portfolio Analyst</p>
+            <dl class="case-rows">
+              <div><dt>Problem</dt><dd>Senior stakeholders needed reliable portfolio performance and forecasts, and the ETL and reporting workflows behind them needed to be more consistent.</dd></div>
+              <div><dt>Approach</dt><dd>Ran portfolio analysis and financial modeling on large datasets, built forecasting models and performance summaries for quarterly reporting, and automated and standardized the ETL and reporting workflows.</dd></div>
+            </dl>
+            <ul class="result" aria-label="Results">
+              <li><strong>+15%</strong><span>revenue through contract optimization</span></li>
+              <li><strong>+20%</strong><span>team productivity from ETL automation</span></li>
+            </ul>
+            <ul class="stack" aria-label="Stack">
+              <li>SQL</li><li>Python</li><li>Financial modeling</li><li>Forecasting</li><li>ETL</li>
+            </ul>
+          </article>
         </div>
-      </section>
 
-
-      <!-- Work -->
-      <section id="work" class="section fade-in">
-        <div class="hud-label">Work</div>
-        <h2 class="section-title">Selected projects</h2>
-        <div class="work-grid">
-          <article class="panel panel-bracket role work-card">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="hud-label">Live · 1948–2026</div>
+        <div class="subhead">
+          <h3>Built &amp; shipped</h3>
+          <p>Side projects, live and open source.</p>
+        </div>
+        <div class="projects">
+          <article class="card project">
+            <div class="card-top"><span class="tag">Data story · 1948–2026</span></div>
             <h3>Living Room Ledger</h3>
-            <p>What a household has paid to watch television: cable, satellite, live TV, streaming, discs, and rentals, with 2026 plan prices and the hours of work a cable bill takes.</p>
-            <div class="work-links">
-              <a class="btn btn-primary" href="https://home-entertainment.grok.me/" target="_blank" rel="noopener noreferrer">Open the ledger</a>
-              <a class="btn btn-ghost" href="https://github.com/TodorPapazov/home-entertainment" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <p>What a household has paid to watch TV: cable, satellite, live TV, streaming, discs, and rentals, with 2026 plan prices and the hours of work a cable bill takes. Cable stays on the last published FCC survey rather than a guessed year.</p>
+            <ul class="stack" aria-label="Stack"><li>Python</li><li>TypeScript</li><li>JavaScript</li></ul>
+            <div class="project-links">
+              <a class="btn btn-primary btn-sm" href="https://home-entertainment.grok.me/" target="_blank" rel="noopener noreferrer">Open <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg><span class="sr-only">Living Room Ledger (opens in new tab)</span></a>
+              <a class="btn btn-outline btn-sm" href="https://github.com/TodorPapazov/home-entertainment" target="_blank" rel="noopener noreferrer">Code<span class="sr-only"> for Living Room Ledger on GitHub</span></a>
             </div>
           </article>
-          <article class="panel panel-bracket role work-card">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="hud-label">Dataset · 2000–2025</div>
+          <article class="card project">
+            <div class="card-top"><span class="tag">Dataset · 2000–2025</span></div>
             <h3>GPU History</h3>
-            <p>118 desktop GPU launches, inflation-adjusted, with a GeForce generation scroll and an affordability explorer.</p>
-            <div class="work-links">
-              <a class="btn btn-ghost" href="https://todorpapazov.github.io/GPU-History/" target="_blank" rel="noopener noreferrer">Open</a>
-              <a class="btn btn-ghost" href="https://github.com/TodorPapazov/GPU-History" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <p>118 desktop GPU launches, inflation-adjusted, as a dataset, a notebook analysis, and an interactive site with a GeForce generation scroll and an affordability explorer.</p>
+            <ul class="stack" aria-label="Stack"><li>Python</li><li>Jupyter</li><li>JavaScript</li></ul>
+            <div class="project-links">
+              <a class="btn btn-primary btn-sm" href="https://todorpapazov.github.io/GPU-History/" target="_blank" rel="noopener noreferrer">Open <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg><span class="sr-only">GPU History (opens in new tab)</span></a>
+              <a class="btn btn-outline btn-sm" href="https://github.com/TodorPapazov/GPU-History" target="_blank" rel="noopener noreferrer">Code<span class="sr-only"> for GPU History on GitHub</span></a>
             </div>
           </article>
-          <article class="panel panel-bracket role work-card">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="hud-label">Browser</div>
+          <article class="card project">
+            <div class="card-top"><span class="tag">Web app</span></div>
             <h3>Live TV</h3>
-            <p>A watch-only player for free public live channels. No account, and no desktop recorder.</p>
-            <div class="work-links">
-              <a class="btn btn-ghost" href="https://todorpapazov.github.io/live-tv/" target="_blank" rel="noopener noreferrer">Open</a>
-              <a class="btn btn-ghost" href="https://github.com/TodorPapazov/live-tv" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <p>A watch-only browser player for free public live channels. No account, nothing to install.</p>
+            <ul class="stack" aria-label="Stack"><li>JavaScript</li><li>HLS streaming</li></ul>
+            <div class="project-links">
+              <a class="btn btn-primary btn-sm" href="live-tv/" target="_blank" rel="noopener noreferrer">Open <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg><span class="sr-only">Live TV (opens in new tab)</span></a>
+              <a class="btn btn-outline btn-sm" href="https://github.com/TodorPapazov/live-tv" target="_blank" rel="noopener noreferrer">Code<span class="sr-only"> for Live TV on GitHub</span></a>
             </div>
           </article>
-          <article class="panel panel-bracket role work-card">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="hud-label">Study</div>
+          <article class="card project">
+            <div class="card-top"><span class="tag">Study tool</span></div>
             <h3>DP-600 flashcards</h3>
-            <p>Fabric Analytics Engineer practice cards for the Microsoft DP-600 exam, usable from the browser.</p>
-            <div class="work-links">
-              <a class="btn btn-ghost" href="https://todorpapazov.github.io/DP-600/" target="_blank" rel="noopener noreferrer">Open</a>
-              <a class="btn btn-ghost" href="https://github.com/TodorPapazov/DP-600" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <p>Practice cards for Microsoft’s Fabric Analytics Engineer exam (DP-600), aligned to the official skills measured, usable on phone or desktop.</p>
+            <ul class="stack" aria-label="Stack"><li>JavaScript</li><li>T-SQL</li><li>Python</li></ul>
+            <div class="project-links">
+              <a class="btn btn-primary btn-sm" href="https://todorpapazov.github.io/DP-600/" target="_blank" rel="noopener noreferrer">Open <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg><span class="sr-only">DP-600 flashcards (opens in new tab)</span></a>
+              <a class="btn btn-outline btn-sm" href="https://github.com/TodorPapazov/DP-600" target="_blank" rel="noopener noreferrer">Code<span class="sr-only"> for DP-600 flashcards on GitHub</span></a>
             </div>
           </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Experience -->
-      <section id="experience" class="section fade-in">
-        <div class="hud-label">Experience</div>
-        <h2 class="section-title">Professional Experience</h2>
-
-        <article class="panel panel-bracket role">
-          <span class="bracket-tr"></span><span class="bracket-bl"></span>
-          <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:0.5rem;align-items:flex-start;">
+    <!-- Experience -->
+    <section class="section" id="experience" aria-labelledby="exp-title">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="kicker">02 / Experience</span>
+          <h2 id="exp-title">Where I’ve worked</h2>
+          <p>From client-facing finance roles to building the data behind healthcare operations, always close to the people using the numbers.</p>
+        </div>
+        <ol class="timeline">
+          <li class="job current">
+            <div class="job-when">Dec 2024 – Present</div>
             <div>
               <h3>Operations Data Analyst</h3>
-              <div class="muted" style="font-size:0.9rem;">TRIMEDX — Indianapolis, IN (Healthcare Operations &amp; Technology)</div>
+              <p class="org"><strong>TRIMEDX</strong> · Indianapolis, IN · Healthcare operations &amp; technology</p>
+              <ul>
+                <li>Led data preparation and exploratory analysis on <b>1M+ healthcare records</b> with Python, SQL, and Snowflake; built pipelines and controls that <b>cut reporting errors 25%</b>.</li>
+                <li>Built pipelines from CMMS, RTLS, and EHR systems into Power BI dashboards for KPI and performance tracking.</li>
+                <li>Supported forecasting and ROI modeling with statistical analysis across enterprise platforms.</li>
+                <li>Partnered with Clinical Engineering and operations leaders on reporting solutions and pipeline automation.</li>
+                <li>Recommendations contributed to <b>$19M in annual cost savings</b>.</li>
+              </ul>
             </div>
-            <span class="chip">Dec 2024 — Present</span>
-          </div>
-          <ul>
-            <li>Led data preparation and exploratory analysis on 1M+ healthcare records using Python, SQL, and Snowflake; reduced reporting errors by 25%.</li>
-            <li>Built data pipelines from CMMS, RTLS, and EHR systems into Power BI dashboards for KPI and performance tracking.</li>
-            <li>Supported forecasting and ROI modeling with statistical analysis across enterprise platforms.</li>
-            <li>Partnered with Clinical Engineering and operations leaders on reporting solutions and pipeline automation.</li>
-            <li>Contributed to $19M in annual cost savings through data-informed operational recommendations.</li>
-          </ul>
-        </article>
-
-        <article class="panel panel-bracket role">
-          <span class="bracket-tr"></span><span class="bracket-bl"></span>
-          <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:0.5rem;align-items:flex-start;">
+          </li>
+          <li class="job">
+            <div class="job-when">Nov 2022 – Nov 2024</div>
             <div>
               <h3>Portfolio Analyst</h3>
-              <div class="muted" style="font-size:0.9rem;">TRIMEDX — Indianapolis, IN</div>
+              <p class="org"><strong>TRIMEDX</strong> · Indianapolis, IN</p>
+              <ul>
+                <li>Performed portfolio analysis and financial modeling on large datasets using SQL and Python.</li>
+                <li>Prepared forecasting models and performance summaries for senior stakeholder reporting.</li>
+                <li>Recommendations supported a <b>15% revenue increase</b> through contract optimization.</li>
+                <li>Automated ETL workflows, improving data consistency and <b>team productivity by 20%</b>.</li>
+              </ul>
             </div>
-            <span class="chip">Nov 2022 — Nov 2024</span>
-          </div>
-          <ul>
-            <li>Performed portfolio analysis and financial modeling on large datasets using SQL and Python.</li>
-            <li>Prepared forecasting models and performance summaries for senior stakeholder reporting.</li>
-            <li>Delivered recommendations that supported a 15% revenue increase through contract optimization.</li>
-            <li>Automated ETL workflows, improving data consistency and team productivity by 20%.</li>
-          </ul>
-        </article>
-
-        <article class="panel panel-bracket role">
-          <span class="bracket-tr"></span><span class="bracket-bl"></span>
-          <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:0.5rem;align-items:flex-start;">
+          </li>
+          <li class="job">
+            <div class="job-when">Aug 2019 – Aug 2022</div>
             <div>
               <h3>Registered Wealth Management Client Associate</h3>
-              <div class="muted" style="font-size:0.9rem;">Merrill Lynch — San Francisco, CA (Financial Services – Highly Regulated Environment)</div>
+              <p class="org"><strong>Merrill Lynch</strong> · San Francisco, CA · Financial services, highly regulated</p>
+              <ul>
+                <li>Analyzed portfolio and performance data with a focus on accuracy and compliance.</li>
+                <li>Created reports, visualizations, and pipelines to communicate performance and risk trends to advisors.</li>
+                <li>Delivered data-driven recommendations while maintaining reporting quality and compliance standards.</li>
+              </ul>
             </div>
-            <span class="chip">Aug 2019 — Aug 2022</span>
-          </div>
-          <ul>
-            <li>Analyzed portfolio and performance data with focus on accuracy and compliance in a regulated wealth management environment.</li>
-            <li>Created reports, visualizations, and pipelines to communicate performance and risk trends to advisors.</li>
-            <li>Delivered data-driven recommendations while maintaining reporting quality and compliance standards.</li>
-          </ul>
-        </article>
-
-        <article class="panel panel-bracket role">
-          <span class="bracket-tr"></span><span class="bracket-bl"></span>
-          <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:0.5rem;align-items:flex-start;">
+          </li>
+          <li class="job">
+            <div class="job-when">Dec 2016 – Aug 2019</div>
             <div>
               <h3>Relationship Manager</h3>
-              <div class="muted" style="font-size:0.9rem;">Bank of America — San Carlos, CA</div>
+              <p class="org"><strong>Bank of America</strong> · San Carlos, CA</p>
+              <ul>
+                <li>Tracked client performance and analyzed operational data to support business decisions.</li>
+                <li>Partnered with leadership on insights from validated datasets, consistently exceeding quarterly targets.</li>
+              </ul>
             </div>
-            <span class="chip">Dec 2016 — Aug 2019</span>
-          </div>
-          <ul>
-            <li>Tracked client performance and analyzed operational data to support business decisions.</li>
-            <li>Partnered with leadership on insights from validated datasets, consistently exceeding quarterly targets.</li>
-          </ul>
-        </article>
-      </section>
+          </li>
+        </ol>
+      </div>
+    </section>
 
-      <!-- Skills -->
-      <section id="skills" class="section fade-in">
-        <div class="hud-label">Expertise</div>
-        <h2 class="section-title">Skills &amp; Competencies</h2>
-        <div class="skills-grid">
-          <div class="panel panel-bracket role" style="margin:0;">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="hud-label" style="margin-bottom:0.65rem;"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Data Pipelines &amp; Analytics</div>
-            <div>
-              <span class="skill-pill">Data Preparation &amp; Wrangling</span>
-              <span class="skill-pill">Exploratory Data Analysis (EDA)</span>
-              <span class="skill-pill">Data Pipelines &amp; ETL</span>
-              <span class="skill-pill">Feature Preparation</span>
-              <span class="skill-pill">Large-Scale Data Analysis (1M+)</span>
-            </div>
-          </div>
-          <div class="panel panel-bracket role" style="margin:0;">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="hud-label" style="margin-bottom:0.65rem;"><i class="fa-solid fa-database" aria-hidden="true"></i> Technical &amp; Platforms</div>
-            <div>
-              <span class="skill-pill">Python (Pandas, NumPy)</span>
-              <span class="skill-pill">SQL (Advanced)</span>
-              <span class="skill-pill">Snowflake</span>
-              <span class="skill-pill">Power BI (Dashboards, DAX, KPIs)</span>
-              <span class="skill-pill">R</span>
-              <span class="skill-pill">Advanced Excel / Power Query</span>
-            </div>
-          </div>
-          <div class="panel panel-bracket role" style="margin:0;">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="hud-label" style="margin-bottom:0.65rem;"><i class="fa-solid fa-balance-scale" aria-hidden="true"></i> Analytics &amp; Domain</div>
-            <div>
-              <span class="skill-pill">HIPAA &amp; Financial Compliance</span>
-              <span class="skill-pill">Healthcare Operations Analytics</span>
-              <span class="skill-pill">Statistical Modeling &amp; Forecasting</span>
-              <span class="skill-pill">ROI &amp; Financial Modeling</span>
-              <span class="skill-pill">Risk &amp; Data Analytics</span>
-            </div>
-          </div>
-          <div class="panel panel-bracket role" style="margin:0;">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="hud-label" style="margin-bottom:0.65rem;"><i class="fa-solid fa-lightbulb" aria-hidden="true"></i> Additional Strengths</div>
-            <div>
-              <span class="skill-pill">Stakeholder Communication</span>
-              <span class="skill-pill">Process Improvement</span>
-              <span class="skill-pill">GenAI &amp; Low-Code Automation</span>
-              <span class="skill-pill">Prompt Engineering for Data</span>
-              <span class="skill-pill">Power Automate</span>
-            </div>
-          </div>
+    <!-- Skills -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="kicker">03 / Skills</span>
+          <h2 id="skills-title">Toolkit</h2>
+          <p>The tools I use every day, and the business context I use them in.</p>
         </div>
-      </section>
-
-      <!-- Education + Certs -->
-      <section id="education" class="section fade-in">
-        <div class="edu-grid">
-          <div class="panel panel-bracket role" style="margin:0;">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="hud-label">Education</div>
-            <h3 class="section-title" style="font-size:1.35rem;margin-top:0.4rem;">Credentials</h3>
-            <div style="margin-bottom:1rem;">
-              <div style="font-weight:600;">Master of Business Administration (MBA), Finance and Investment Banking</div>
-              <div class="muted" style="font-size:0.9rem;">Lincoln University</div>
-            </div>
-            <div>
-              <div style="font-weight:600;">Bachelor of Science, Economics</div>
-              <div class="muted" style="font-size:0.9rem;">University of Economics — Varna</div>
-            </div>
-          </div>
-          <div class="panel panel-bracket role" style="margin:0;">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="hud-label">Certifications</div>
-            <h3 class="section-title" style="font-size:1.35rem;margin-top:0.4rem;">Verified skills</h3>
-            <ul style="margin:0;padding-left:1.1rem;color:var(--muted);font-size:0.92rem;">
-              <li style="margin:0.4rem 0;">
-                <a href="https://www.skills.google/public_profiles/55cff512-2c46-460a-8993-2b7c6c2c1c8e" target="_blank" rel="noopener noreferrer">Google Cloud Data Analytics Certificate</a>
-                <span class="muted">— Google Cloud</span>
-              </li>
-              <li style="margin:0.4rem 0;">
-                <a href="https://developerbadges.snowflake.com/profile/todorpapazov/wallet" target="_blank" rel="noopener noreferrer">Snowflake Platform Associate Certification</a>
-                <span class="muted">— Snowflake</span>
-              </li>
-              <li style="margin:0.4rem 0;"><strong>SQL Data Analyst</strong> <span class="muted">— DataCamp</span></li>
-              <li style="margin:0.4rem 0;"><strong>Microsoft Excel Advanced</strong> <span class="muted">— Udemy</span></li>
+        <div class="skills">
+          <div class="card skill-card">
+            <h3><span class="mono" aria-hidden="true">&lt;/&gt;</span> Languages &amp; platforms</h3>
+            <ul class="pills">
+              <li>Python (Pandas, NumPy)</li><li>SQL (advanced)</li><li>Snowflake</li><li>Power BI (DAX, KPIs)</li><li>R</li><li>Excel / Power Query</li>
             </ul>
-            <div style="margin-top:0.85rem;display:flex;flex-wrap:wrap;gap:0.75rem;font-size:0.78rem;">
-              <a href="https://www.skills.google/public_profiles/55cff512-2c46-460a-8993-2b7c6c2c1c8e" target="_blank" rel="noopener noreferrer">Google Skills Profile ↗</a>
-              <a href="https://developerbadges.snowflake.com/profile/todorpapazov/wallet" target="_blank" rel="noopener noreferrer">Snowflake Badge Wallet ↗</a>
-            </div>
-            <div class="muted" style="margin-top:0.65rem;font-size:0.78rem;">Additional DataCamp SQL specializations: Data Manipulation, Intermediate, Joining Data in SQL</div>
           </div>
-        </div>
-      </section>
-
-      <!-- Activity -->
-      <section id="activity" class="section fade-in">
-        <div class="hud-label">Activity</div>
-        <h2 class="section-title">Recent posts &amp; learning</h2>
-        <p class="muted" style="margin:-0.5rem 0 1.25rem;">A snapshot of ongoing professional development and community engagement (as of July 2026).</p>
-        <div class="activity-grid">
-          <div class="panel panel-bracket role" style="margin:0;">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="chip" style="margin-bottom:0.5rem;"><i class="fab fa-x-twitter" aria-hidden="true"></i> X</div>
-            <div style="font-weight:600;font-size:0.95rem;">May 2025 · Power BI certification</div>
-            <p class="muted" style="font-size:0.88rem;margin:0.4rem 0 0;">Microsoft Learn — PL-300 + LinkedIn Learning Advanced DAX. AI Skills Fest voucher utilized for June 17, 2025 exam.</p>
-            <a href="https://x.com/TodorPapazov" target="_blank" rel="noopener noreferrer" style="font-size:0.78rem;display:inline-block;margin-top:0.55rem;">View on X →</a>
+          <div class="card skill-card">
+            <h3><span class="mono" aria-hidden="true">→</span> Data engineering</h3>
+            <ul class="pills">
+              <li>Data pipelines &amp; ETL</li><li>Data preparation &amp; wrangling</li><li>Feature preparation</li><li>Large-scale analysis (1M+ rows)</li><li>Data quality controls</li>
+            </ul>
           </div>
-          <div class="panel panel-bracket role" style="margin:0;">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="chip" style="margin-bottom:0.5rem;"><i class="fab fa-x-twitter" aria-hidden="true"></i> X</div>
-            <div style="font-weight:600;font-size:0.95rem;">Jun 2026</div>
-            <p class="muted" style="font-size:0.88rem;margin:0.4rem 0 0;">/goal in Grok Build keeps working until completed — results more than astonishing. Great job @xai</p>
-            <a href="https://x.com/TodorPapazov" target="_blank" rel="noopener noreferrer" style="font-size:0.78rem;display:inline-block;margin-top:0.55rem;">View on X →</a>
+          <div class="card skill-card">
+            <h3><span class="mono" aria-hidden="true">Σ</span> Analysis &amp; modeling</h3>
+            <ul class="pills">
+              <li>Exploratory data analysis</li><li>Statistical modeling</li><li>Forecasting</li><li>ROI &amp; financial modeling</li><li>Risk analytics</li><li>Healthcare operations analytics</li><li>HIPAA &amp; financial compliance</li>
+            </ul>
           </div>
-          <div class="panel panel-bracket role" style="margin:0;">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="chip" style="margin-bottom:0.5rem;"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</div>
-            <div style="font-weight:600;font-size:0.95rem;">AI Agents learning</div>
-            <p class="muted" style="font-size:0.88rem;margin:0.4rem 0 0;">Excited for the renewed 5-Day AI Agents Course with Kaggle &amp; Google. The best part, it is FREE.</p>
-            <a href="https://www.linkedin.com/in/todorpapazov" target="_blank" rel="noopener noreferrer" style="font-size:0.78rem;display:inline-block;margin-top:0.55rem;">View profile →</a>
+          <div class="card skill-card">
+            <h3><span class="mono" aria-hidden="true">✦</span> AI &amp; automation</h3>
+            <ul class="pills">
+              <li>GenAI &amp; low-code automation</li><li>Prompt engineering for data</li><li>Power Automate</li><li>Stakeholder communication</li><li>Process improvement</li>
+            </ul>
           </div>
-          <div class="panel panel-bracket role" style="margin:0;">
-            <span class="bracket-tr"></span><span class="bracket-bl"></span>
-            <div class="chip" style="margin-bottom:0.5rem;"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</div>
-            <div style="font-weight:600;font-size:0.95rem;">Google Cloud Data Analytics</div>
-            <p class="muted" style="font-size:0.88rem;margin:0.4rem 0 0;">Google Cloud Data Analytics Certificate issued by Google Cloud to Todor Papazov.</p>
-            <a href="https://www.linkedin.com/in/todorpapazov" target="_blank" rel="noopener noreferrer" style="font-size:0.78rem;display:inline-block;margin-top:0.55rem;">View profile →</a>
-          </div>
-        </div>
-      </section>
-
-      <!-- Contact -->
-      <section id="contact" class="section fade-in">
-        <div class="panel panel-bracket role" style="text-align:center;padding:2rem;margin:0;">
-          <span class="bracket-tr"></span><span class="bracket-bl"></span>
-          <div class="hud-label">Contact</div>
-          <h2 class="section-title">Let's connect</h2>
-          <p class="muted" style="max-width:32rem;margin:0 auto 1.25rem;">
-            Open to data analytics, healthcare operations, and analytics engineering opportunities.
-          </p>
-          <div style="display:flex;flex-wrap:wrap;gap:0.65rem;justify-content:center;">
-            <a class="btn btn-ghost" href="https://www.linkedin.com/in/todorpapazov" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
-            </a>
-            <a class="btn btn-ghost" href="https://github.com/TodorPapazov" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-github" aria-hidden="true"></i> GitHub
-            </a>
-            <a class="btn btn-ghost" href="https://x.com/TodorPapazov" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-x-twitter" aria-hidden="true"></i> X / Twitter
-            </a>
-            <a class="btn btn-primary" href="#resume">
-              <i class="fa-solid fa-download" aria-hidden="true"></i> Download Resume
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <!-- Resume CTA -->
-      <section id="resume" class="section fade-in" style="padding-bottom:4rem;">
-        <div class="resume-cta panel-bracket">
-          <span class="bracket-tr" style="border-color:rgba(147,197,253,0.5);"></span>
-          <span class="bracket-bl" style="border-color:rgba(147,197,253,0.5);"></span>
-          <div>
-            <div class="hud-label">Full details</div>
-            <h2 class="display" style="font-size:clamp(1.5rem,3vw,2rem);margin:0.35rem 0 0;">Download my complete resume</h2>
-            <p>Includes full experience, detailed achievements, and technical skills matrix.</p>
-          </div>
-          <div style="text-align:center;">
-            <a class="btn btn-primary" href="assets/resume/Todor_Papazov_Resume.pdf" download="Todor_Papazov_Resume.pdf">
-              <i class="fa-solid fa-download" aria-hidden="true"></i> Download PDF
-            </a>
-            <div class="mono" style="font-size:0.68rem;color:#94a3b8;margin-top:0.55rem;">Todor_Papazov_Resume.pdf</div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        <div>
-          © 2026 Todor "Todd" Papazov · Westfield, IN<br>
-          <span style="font-size:0.75rem;">Data Analytics Professional | Data Science</span>
-        </div>
-        <div style="display:flex;flex-wrap:wrap;gap:1rem;">
-          <a href="https://github.com/TodorPapazov" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/todorpapazov" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="https://x.com/TodorPapazov" target="_blank" rel="noopener noreferrer">X</a>
-        </div>
-        <div style="font-size:0.75rem;">
-          Hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>
         </div>
       </div>
-    </footer>
-  </div>
+    </section>
 
-  <button id="back-to-top" type="button" aria-label="Back to top">
-    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
-  </button>
+    <!-- Education & certifications -->
+    <section class="section" id="education" aria-labelledby="edu-title">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="kicker">04 / Education</span>
+          <h2 id="edu-title">Education &amp; certifications</h2>
+        </div>
+        <div class="edu">
+          <div class="card">
+            <h3>Degrees</h3>
+            <div class="edu-item"><strong>MBA, Finance and Investment Banking</strong><span>Lincoln University</span></div>
+            <div class="edu-item"><strong>BS, Economics</strong><span>University of Economics — Varna</span></div>
+          </div>
+          <div class="card">
+            <h3>Certifications</h3>
+            <ul class="cert-list">
+              <li><a href="https://www.skills.google/public_profiles/55cff512-2c46-460a-8993-2b7c6c2c1c8e" target="_blank" rel="noopener noreferrer">Google Cloud Data Analytics Certificate</a><span class="who">Google Cloud</span></li>
+              <li><a href="https://developerbadges.snowflake.com/profile/todorpapazov/wallet" target="_blank" rel="noopener noreferrer">Snowflake Platform Associate</a><span class="who">Snowflake</span></li>
+              <li><strong>SQL Data Analyst</strong><span class="who">DataCamp</span></li>
+              <li><strong>Microsoft Excel Advanced</strong><span class="who">Udemy</span></li>
+            </ul>
+            <p class="note">Plus DataCamp SQL courses: Data Manipulation, Intermediate SQL, and Joining Data in SQL.</p>
+          </div>
+          <div class="card">
+            <h3>Recently learning</h3>
+            <ul class="learn-list">
+              <li><span class="when">Kaggle &amp; Google</span>5-Day AI Agents course</li>
+              <li><span class="when">2026 · xAI</span>Building side projects with Grok Build</li>
+              <li><span class="when">2026 · Microsoft</span>Fabric Analytics Engineer (DP-600) prep</li>
+              <li><span class="when">2025 · Microsoft Learn</span>Power BI (PL-300) and Advanced DAX</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <script>
-    (function () {
-      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-      const mobileMenu = document.getElementById('mobile-menu');
-      const menuIconOpen = document.getElementById('menu-icon-open');
-      const menuIconClose = document.getElementById('menu-icon-close');
-      const backToTop = document.getElementById('back-to-top');
-      const logoLayer = document.getElementById('logo-float-layer');
-      const logoInner = document.getElementById('logo-float-inner');
-      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    <!-- Contact -->
+    <section class="section" id="contact" aria-labelledby="contact-title" style="padding-top:0">
+      <div class="wrap">
+        <div class="contact">
+          <div>
+            <span class="kicker">05 / Contact</span>
+            <h2 id="contact-title">Let’s talk.</h2>
+            <p>I’m open to data analytics, data science, AI engineering, and forward deployed engineering roles. The fastest way to reach me is LinkedIn.</p>
+            <div class="cta-row" id="resume">
+              <a class="btn btn-primary" href="https://www.linkedin.com/in/todorpapazov" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg> Message me on LinkedIn
+              </a>
+              <a class="btn btn-outline" href="assets/resume/Todor_Papazov_Resume.pdf" download="Todor_Papazov_Resume.pdf">
+                <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg> Resume (PDF)
+              </a>
+            </div>
+          </div>
+          <ul class="contact-links">
+            <li><a href="https://www.linkedin.com/in/todorpapazov" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg> LinkedIn <span class="handle">/in/todorpapazov</span></a></li>
+            <li><a href="https://github.com/TodorPapazov" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg> GitHub <span class="handle">@TodorPapazov</span></a></li>
+            <li><a href="https://x.com/TodorPapazov" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg> X <span class="handle">@TodorPapazov</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
 
-      function closeMobileMenu() {
-        mobileMenu.classList.remove('open');
-        mobileMenuBtn.setAttribute('aria-expanded', 'false');
-        menuIconOpen.style.display = '';
-        menuIconClose.style.display = 'none';
-      }
-
-      mobileMenuBtn.addEventListener('click', () => {
-        const isOpen = mobileMenu.classList.toggle('open');
-        mobileMenuBtn.setAttribute('aria-expanded', String(isOpen));
-        menuIconOpen.style.display = isOpen ? 'none' : '';
-        menuIconClose.style.display = isOpen ? '' : 'none';
-      });
-
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-          const href = this.getAttribute('href');
-          if (!href || href === '#') return;
-          const target = document.querySelector(href);
-          if (target) {
-            e.preventDefault();
-            target.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
-            closeMobileMenu();
-          }
-        });
-      });
-
-      const sections = document.querySelectorAll('section[id]');
-      const navLinks = document.querySelectorAll('.nav-link[data-section]');
-
-      const scrollObserver = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            navLinks.forEach(link => {
-              link.classList.toggle('active', link.dataset.section === entry.target.id);
-            });
-          }
-        });
-      }, { rootMargin: '-40% 0px -50% 0px', threshold: 0 });
-
-      sections.forEach(section => scrollObserver.observe(section));
-
-      const fadeObserver = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-            fadeObserver.unobserve(entry.target);
-          }
-        });
-      }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
-
-      document.querySelectorAll('.fade-in').forEach(el => fadeObserver.observe(el));
-
-      // Seamless float while scrolling: vertical sway only (stay in side margins)
-      let ticking = false;
-
-      function updateLogoParallax() {
-        ticking = false;
-        const y = window.scrollY || 0;
-        backToTop.classList.toggle('visible', y > 600);
-        if (reduceMotion || !logoLayer || !logoInner) return;
-        // Mostly vertical parallax so logos remain in the left/right gutters
-        const layerY = Math.sin(y * 0.002) * 12;
-        const innerY = Math.cos(y * 0.0017) * 8;
-        logoLayer.style.transform = 'translate3d(0, ' + layerY + 'px, 0)';
-        logoInner.style.transform = 'translate3d(0, ' + innerY + 'px, 0)';
-      }
-
-      function onScroll() {
-        if (!ticking) {
-          ticking = true;
-          requestAnimationFrame(updateLogoParallax);
-        }
-      }
-
-      window.addEventListener('scroll', onScroll, { passive: true });
-      updateLogoParallax();
-
-      backToTop.addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
-      });
-    })();
-  </script>
+  <footer class="footer">
+    <div class="wrap">
+      <span>© 2026 Todor “Todd” Papazov · Westfield, IN</span>
+      <span>Plain HTML &amp; CSS, hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a></span>
+    </div>
+  </footer>
 </body>
 </html>
