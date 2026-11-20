@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Todor “Todd” Papazov | Data Analyst who builds and ships</title>
-  <meta name="description" content="Todor “Todd” Papazov: Operations Data Analyst at TRIMEDX with 7+ years in healthcare operations and financial services. Python, SQL, Snowflake, Power BI. Pipelines and analysis behind $19M in annual cost savings and 25% fewer reporting errors.">
+  <meta name="description" content="Todor “Todd” Papazov: Operations Data Analyst at TRIMEDX with 7+ years in healthcare operations and financial services. Python, SQL, Snowflake, Power BI. Snowflake and Azure AI Fundamentals certified. Pipelines and analysis behind $19M in annual cost savings and 25% fewer reporting errors.">
   <meta name="author" content="Todor Papazov">
   <link rel="canonical" href="https://todorpapazov.github.io/">
   <meta property="og:title" content="Todor “Todd” Papazov | Data Analyst who builds and ships">
-  <meta property="og:description" content="Operations Data Analyst at TRIMEDX. Pipelines, models, dashboards, and small tools for healthcare operations and financial services.">
+  <meta property="og:description" content="Operations Data Analyst at TRIMEDX. Pipelines, models, dashboards, and small tools for healthcare operations and financial services. Snowflake and Azure AI Fundamentals certified.">
   <meta property="og:image" content="https://todorpapazov.github.io/assets/images/todor-papazov.jpg">
   <meta property="og:url" content="https://todorpapazov.github.io/">
   <meta property="og:type" content="website">
@@ -43,6 +43,11 @@
       "https://www.linkedin.com/in/todorpapazov",
       "https://x.com/TodorPapazov",
       "https://github.com/TodorPapazov"
+    ],
+    "hasCredential": [
+      { "@type": "EducationalOccupationalCredential", "name": "Snowflake Platform Associate", "credentialCategory": "certification", "recognizedBy": { "@type": "Organization", "name": "Snowflake" }, "url": "https://developerbadges.snowflake.com/profile/todorpapazov/wallet" },
+      { "@type": "EducationalOccupationalCredential", "name": "Microsoft Certified: Azure AI Fundamentals", "credentialCategory": "certification", "recognizedBy": { "@type": "Organization", "name": "Microsoft" }, "url": "https://learn.microsoft.com/api/credentials/share/en-us/TodorPapazov-7789/E0333003CAC6D5A0?sharingId=B944843B415FE69D" },
+      { "@type": "EducationalOccupationalCredential", "name": "Google Cloud Data Analytics Certificate", "credentialCategory": "certificate", "recognizedBy": { "@type": "Organization", "name": "Google Cloud" } }
     ],
     "knowsAbout": ["Python", "SQL", "Snowflake", "Power BI", "Data Pipelines", "ETL", "Statistical Modeling", "Forecasting", "Healthcare Operations Analytics", "Financial Services"]
   }
@@ -166,8 +171,8 @@
     @media (min-width: 980px) { .hero-terminal { display: block; } }
 
     /* ---------- Metrics ---------- */
-    .metrics { padding: 0 0 2.5rem; }
-    @media (min-width: 768px) { .metrics { padding-bottom: 4rem; } }
+    .metrics { padding: 0 0 1rem; }
+    @media (min-width: 768px) { .metrics { padding-bottom: 1.5rem; } }
     .metric-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 0.75rem; list-style: none; }
     @media (min-width: 768px) { .metric-grid { grid-template-columns: repeat(4, minmax(0,1fr)); gap: 1rem; } }
     .metric { border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem 1.1rem; background: #fff; }
@@ -178,6 +183,29 @@
     .metric:first-child { background: var(--accent); border-color: var(--accent); }
     .metric:first-child .metric-val, .metric:first-child .metric-val em { color: #fff; }
     .metric:first-child .metric-label { color: #e0e7ff; }
+
+    /* ---------- Certified strip ---------- */
+    .certs { padding: 0 0 2.5rem; }
+    @media (min-width: 768px) { .certs { padding-bottom: 4rem; } }
+    .certs-box { border: 1px solid var(--accent-line); background: linear-gradient(180deg, var(--accent-soft), #fff 85%); border-radius: 18px; padding: 1.25rem; }
+    @media (min-width: 768px) { .certs-box { padding: 1.75rem 2rem; } }
+    .certs-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 0.35rem 1rem; margin-bottom: 1rem; }
+    .certs-head h2 { font-size: 1.15rem; font-weight: 800; letter-spacing: -0.01em; display: flex; align-items: center; gap: 0.5rem; }
+    .certs-head h2 .icon { color: var(--accent); width: 1.25rem; height: 1.25rem; }
+    .certs-head .profiles { font-size: 0.88rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; }
+    .cert-grid { display: grid; gap: 0.75rem; list-style: none; }
+    @media (min-width: 768px) { .cert-grid { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 1rem; } }
+    .cert-badge { display: flex; align-items: center; gap: 1rem; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem 1.1rem; box-shadow: 0 1px 2px rgba(15,23,42,.04); }
+    .cert-logo { flex: none; width: 3.25rem; height: 3.25rem; border-radius: 12px; display: grid; place-items: center; background: var(--bg-alt); border: 1px solid var(--line); }
+    .cert-logo img { width: 2rem; height: 2rem; }
+    .cert-logo.azure { background: #0078d4; border-color: #0078d4; }
+    .cert-logo.azure img { width: 3.25rem; height: 3.25rem; border-radius: 12px; }
+    .cert-body { min-width: 0; flex: 1; }
+    .cert-body strong { display: block; color: var(--ink); font-weight: 700; line-height: 1.3; }
+    .cert-body .issuer { display: block; font-family: var(--mono); font-size: 0.75rem; color: var(--muted); margin-top: 0.2rem; }
+    .cert-verify { flex: none; display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.88rem; font-weight: 600; text-decoration: none; padding: 0.45rem 0.7rem; border-radius: 8px; border: 1px solid var(--accent-line); }
+    .cert-verify:hover { background: var(--accent-soft); }
+    @media (max-width: 560px) { .cert-badge { flex-wrap: wrap; row-gap: 0.6rem; align-items: flex-start; } .cert-body { flex: 1 1 calc(100% - 4.5rem); } .cert-verify { margin-left: 4.25rem; } }
 
     /* ---------- Sections ---------- */
     section[id] { scroll-margin-top: 4.5rem; }
@@ -302,6 +330,7 @@
     <symbol id="i-x" viewBox="0 0 24 24"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23 5.45-6.23Zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64Z"/></symbol>
     <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3a1 1 0 0 1 1 1v9.59l3.3-3.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1ZM4 18a1 1 0 0 1 1 1v1h14v-1a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1Z"/></symbol>
     <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M12 1.5 14.6 3l3-.1 1.5 2.6 2.6 1.5-.1 3L23 12.6l-1.4 2.6.1 3-2.6 1.5-1.5 2.6-3-.1L12 23.6l-2.6-1.4-3 .1-1.5-2.6-2.6-1.5.1-3L1 12.6 2.4 10l-.1-3 2.6-1.5L6.4 3l3 .1L12 1.5Zm4.3 7.3a1 1 0 0 0-1.4 0l-4.1 4.1-1.6-1.6a1 1 0 1 0-1.4 1.4l2.3 2.3a1 1 0 0 0 1.4 0l4.8-4.8a1 1 0 0 0 0-1.4Z"/></symbol>
     <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></symbol>
   </svg>
 
@@ -350,6 +379,7 @@
           <ul class="hero-meta">
             <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg> Westfield, Indiana</li>
             <li>He/Him</li>
+            <li><svg class="icon" style="color:var(--accent)" aria-hidden="true"><use href="#i-check"/></svg> <a href="#certified">Snowflake &amp; Azure AI certified</a></li>
             <li><a href="https://www.linkedin.com/in/todorpapazov" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
             <li><a href="https://github.com/TodorPapazov" target="_blank" rel="noopener noreferrer">GitHub</a></li>
           </ul>
@@ -386,6 +416,33 @@
           <li class="metric"><span class="metric-val">1M<em>+</em></span><span class="metric-label">healthcare records prepared &amp; analyzed</span></li>
           <li class="metric"><span class="metric-val">7<em>+</em></span><span class="metric-label">years in healthcare ops &amp; financial services</span></li>
         </ul>
+      </div>
+    </section>
+
+    <!-- Certified -->
+    <section class="certs" id="certified" aria-labelledby="certs-title">
+      <div class="wrap">
+        <div class="certs-box">
+          <div class="certs-head">
+            <h2 id="certs-title"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Certified</h2>
+            <p class="profiles">
+              <a href="https://developerbadges.snowflake.com/profile/todorpapazov/wallet" target="_blank" rel="noopener noreferrer">Snowflake badge wallet</a>
+              <a href="https://learn.microsoft.com/en-us/users/TodorPapazov-7789/" target="_blank" rel="noopener noreferrer">Microsoft Learn profile</a>
+            </p>
+          </div>
+          <ul class="cert-grid">
+            <li class="cert-badge">
+              <span class="cert-logo"><img src="assets/logos/snowflake.svg" alt="" width="32" height="32"></span>
+              <span class="cert-body"><strong>Snowflake Platform Associate</strong><span class="issuer">Issued by Snowflake</span></span>
+              <a class="cert-verify" href="https://developerbadges.snowflake.com/profile/todorpapazov/wallet" target="_blank" rel="noopener noreferrer">Verify <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg><span class="sr-only"> Snowflake Platform Associate certification (opens in new tab)</span></a>
+            </li>
+            <li class="cert-badge">
+              <span class="cert-logo azure"><img src="assets/logos/microsoftazure.svg" alt="" width="52" height="52"></span>
+              <span class="cert-body"><strong>Microsoft Certified: Azure AI Fundamentals</strong><span class="issuer">Issued by Microsoft · AI-901</span></span>
+              <a class="cert-verify" href="https://learn.microsoft.com/api/credentials/share/en-us/TodorPapazov-7789/E0333003CAC6D5A0?sharingId=B944843B415FE69D" target="_blank" rel="noopener noreferrer">Verify <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg><span class="sr-only"> Azure AI Fundamentals certification (opens in new tab)</span></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -607,6 +664,7 @@
             <ul class="cert-list">
               <li><a href="https://www.skills.google/public_profiles/55cff512-2c46-460a-8993-2b7c6c2c1c8e" target="_blank" rel="noopener noreferrer">Google Cloud Data Analytics Certificate</a><span class="who">Google Cloud</span></li>
               <li><a href="https://developerbadges.snowflake.com/profile/todorpapazov/wallet" target="_blank" rel="noopener noreferrer">Snowflake Platform Associate</a><span class="who">Snowflake</span></li>
+              <li><a href="https://learn.microsoft.com/api/credentials/share/en-us/TodorPapazov-7789/E0333003CAC6D5A0?sharingId=B944843B415FE69D" target="_blank" rel="noopener noreferrer">Microsoft Certified: Azure AI Fundamentals (AI-901)</a><span class="who">Microsoft</span></li>
               <li><strong>SQL Data Analyst</strong><span class="who">DataCamp</span></li>
               <li><strong>Microsoft Excel Advanced</strong><span class="who">Udemy</span></li>
             </ul>
